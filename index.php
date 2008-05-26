@@ -58,12 +58,7 @@
   <div class="item">
     <h1>; 64-bit (x86-64/x64/AMD64/Intel 64) Support Is Here!!!</h1>
     <p>NASM has been updated to support the full x86-64 architecture
-    extension. The next release, NASM 2.00.00, which is currently
-    marked as 0.99.XX while under development, will emerge from
-    <a href="http://repo.or.cz/w/nasm.git">GIT</a> once it is considered
-    production stable. Until then, you can find/compile it from
-    <a href="http://repo.or.cz/w/nasm.git">GIT</a>, or grab the
-    <a href="ftp://ftp.zytor.com/pub/nasm/snapshots/">snapshots</a>.</p>
+    extension, and is fully supported since NASM 2.00.</p>
   </div>
 
   <div class="item">
