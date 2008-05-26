@@ -43,7 +43,8 @@
       <li>Frank B. Kotler</li>
       <li>Keith Kanios</li>
     </ul>
-    <p>... and we are actively looking for more developers!</p>
+    <p>... and we are actively looking for more developers.  <strong>In particular,</strong> we really
+    need a maintainer for the <strong>MacOS X</strong> (Mach-O) backend!</p>
   </div>
 
   <div class="item">
