@@ -29,6 +29,7 @@
   <div class="item">
   <h1>; Latest Version</h1>
   <p>The latest stable version of NASM is <a href="http://sourceforge.net/project/showfiles.php?group_id=6208"><?php echo @trim(@implode(@file('./version'))); ?></a><br />
+    Release candidate builds are available <a href="ftp://ftp.zytor.com/pub/nasm/releasebuilds/">here</a>.<br />
     Daily development snapshots are available <a href="ftp://ftp.zytor.com/pub/nasm/snapshots/">here</a>.</p>
   </div>
 
