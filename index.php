@@ -42,7 +42,7 @@
       <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a>, <a href="http://www.rpath.com">rPath, Inc.</a></li>
       <li><a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles Crayne</a></li>
       <li>Frank B. Kotler</li>
-      <li>Keith Kanios</li>
+      <li><a href="http://www.kanios.net">Keith Kanios</a></li>
     </ul>
     <p>... and we are actively looking for more developers.  <strong>In particular,</strong> we really
     need a maintainer for the <strong>MacOS X</strong> (Mach-O) backend!</p>
