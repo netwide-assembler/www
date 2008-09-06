@@ -14,6 +14,15 @@
 <div id="content">
 <p>&nbsp;</p>
 
+<?php
+if (file_exists('./version')) {
+  $ver = rtrim(file_get_contents('./version'));
+}
+if (file_exists('./rc-version')) {
+  $rcv = rtrim(file_get_contents('./rc-version'));
+}
+?>
+
 <div>
 
   <b class="cnr"><b class="cnr1"><b></b></b><b class="cnr2"><b></b></b>
@@ -28,7 +37,14 @@
 
   <div class="item">
   <h1>; Latest Version</h1>
-  <p>The latest stable version of NASM is <a href="http://sourceforge.net/project/showfiles.php?group_id=6208"><?php echo @trim(@implode(@file('./version'))); ?></a><br />
+  <p>The latest stable version of NASM is
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=6208"><?= $ver ?></a><br />
+    <?php
+      if ($rcv) {
+        echo "The latest release candidate of NASM is ";
+        echo "<a href=\"ftp://ftp.zytor.com/pub/nasm/releasebuilds/$rcv/\">$rcv</a><br />";
+      }
+    ?>
     Release candidate builds are available <a href="ftp://ftp.zytor.com/pub/nasm/releasebuilds/">here</a>.<br />
     Daily development snapshots are available <a href="ftp://ftp.zytor.com/pub/nasm/snapshots/">here</a>.</p>
   </div>
