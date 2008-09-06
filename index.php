@@ -38,11 +38,11 @@ if (file_exists('./rc-version')) {
   <div class="item">
   <h1>; Latest Version</h1>
   <p>The latest stable version of NASM is
-    <a href="http://sourceforge.net/project/showfiles.php?group_id=6208"><?= $ver ?></a><br />
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=6208"><?= $ver ?></a>.<br />
     <?php
       if ($rcv) {
         echo "The latest release candidate of NASM is ";
-        echo "<a href=\"ftp://ftp.zytor.com/pub/nasm/releasebuilds/$rcv/\">$rcv</a><br />";
+        echo "<a href=\"ftp://ftp.zytor.com/pub/nasm/releasebuilds/$rcv/\">$rcv</a>.<br />";
       }
     ?>
     Release candidate builds are available <a href="ftp://ftp.zytor.com/pub/nasm/releasebuilds/">here</a>.<br />
