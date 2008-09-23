@@ -66,10 +66,10 @@ if (file_exists('./rc-version')) {
 
   <div class="item">
     <h1>; New Development Repository</h1>
-    <p>NASM has moved from using <a href="http://nasm.cvs.sourceforge.net/nasm/">CVS</a>
-    to using <a href="http://repo.or.cz/w/nasm.git">GIT</a>. All further
+    <p>NASM has moved from using CVS to using
+    <a href="http://git.or.cz/">Git</a>. All further
     development will be coordinated through the
-    <a id="VersionLink" href="http://repo.or.cz/w/nasm.git">GIT Repository</a>.</p>
+    <a id="VersionLink" href="http://repo.or.cz/w/nasm.git">Git Repository</a>.</p>
   </div>
 
   <div class="item">
