@@ -34,7 +34,7 @@ require('./version.inc');
   <div class="item">
   <h1>; Latest Version</h1>
   <p>The latest stable version of NASM is
-    <a href="http://sourceforge.net/project/showfiles.php?group_id=6208"><?= $version ?></a>.<br />
+    <a href="ftp://ftp.nasm.us/pub/nasm/releasebuilds/<?= $version ?>/"><?= $version ?></a>.<br />
     <?php
       if ($rc_version) {
         echo "The latest release candidate of NASM is ";
