@@ -42,11 +42,11 @@ if (file_exists('./rc-version')) {
     <?php
       if ($rcv) {
         echo "The latest release candidate of NASM is ";
-        echo "<a href=\"ftp://ftp.zytor.com/pub/nasm/releasebuilds/$rcv/\">$rcv</a>.<br />";
+        echo "<a href=\"ftp://ftp.nasm.us/pub/nasm/releasebuilds/$rcv/\">$rcv</a>.<br />";
       }
     ?>
-    Release candidate builds are available <a href="ftp://ftp.zytor.com/pub/nasm/releasebuilds/">here</a>.<br />
-    Daily development snapshots are available <a href="ftp://ftp.zytor.com/pub/nasm/snapshots/">here</a>.</p>
+    Release candidate builds are available <a href="ftp://ftp.nasm.us/pub/nasm/releasebuilds/">here</a>.<br />
+    Daily development snapshots are available <a href="ftp://ftp.nasm.us/pub/nasm/snapshots/">here</a>.</p>
   </div>
 
   <div class="item">
