@@ -14,14 +14,10 @@
 <div id="content">
 <p>&nbsp;</p>
 
-<?php
-if (file_exists('./version')) {
-  $ver = rtrim(file_get_contents('./version'));
-}
-if (file_exists('./rc-version')) {
-  $rcv = rtrim(file_get_contents('./rc-version'));
-}
-?>
+<!-- The comment markers are needed here, due to the polyglotness hack -->
+<!-- <?php
+require('./version.inc');
+?> -->
 
 <div>
 
