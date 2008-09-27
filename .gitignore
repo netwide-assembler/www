@@ -2,3 +2,7 @@
 /docs
 /pub
 /version.inc
+#*
+*~
+*.bak
+*.tmp
