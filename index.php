@@ -15,11 +15,6 @@
 <div id="content">
 <p>&nbsp;</p>
 
-<!-- The comment markers are needed here, due to the polyglotness hack -->
-<!-- <?php
-require('./version.inc');
-?> -->
-
 <div>
 
   <b class="cnr"><b class="cnr1"><b></b></b><b class="cnr2"><b></b></b>
