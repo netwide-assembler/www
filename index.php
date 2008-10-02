@@ -24,7 +24,7 @@
   <div class="item">
   <h1>; Welcome to The NASM Home Page!</h1>
   <p>We're back at SourceForge - check out
-  <a href="http://sourceforge.net/projects/nasm">http://sourceforge.net/projects/nasm</a></p>
+  <a href="https://sourceforge.net/projects/nasm">https://sourceforge.net/projects/nasm</a></p>
   </div>
 
   <div class="item">
@@ -78,9 +78,9 @@
     improve the NASM for everyone!</p>
 
     <p>Please post your messages to the
-    <a href="http://sourceforge.net/mail/?group_id=6208">mailing
+    <a href="https://sourceforge.net/mail/?group_id=6208">mailing
     list</a>, or file a
-    <a href="http://sourceforge.net/tracker/?atid=106208&amp;group_id=6208&amp;func=browse">bug
+    <a href="https://sourceforge.net/tracker/?atid=106208&amp;group_id=6208&amp;func=browse">bug
     report</a>.</p>
 
     <p>Don't worry if your report is not immediately addressed, even
@@ -104,9 +104,6 @@ for this outstanding website design!!!</p>
 </div>
 
 <p style="text-align: right;"><br />
- <a href="http://sourceforge.net">
-  <img src="http://sourceforge.net/sflogo.php?group_id=6208&amp;type=1" width="88" height="31" alt="SourceForge.net Logo" style="border: none;" />
- </a>
  <a href="http://validator.w3.org/check?uri=referer">
   <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" style="border: none;" />
  </a>
