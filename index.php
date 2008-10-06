@@ -40,7 +40,8 @@
       }
     ?>
     Release candidate builds are available <a href="http://www.nasm.us/pub/nasm/releasebuilds/">here</a>.<br />
-    Daily development snapshots are available <a href="http://www.nasm.us/pub/nasm/snapshots/">here</a>.</p>
+    Daily development snapshots are available <a href="http://www.nasm.us/pub/nasm/snapshots/">here</a>
+(<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).</p>
   </div>
 
   <div class="item">
