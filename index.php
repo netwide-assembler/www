@@ -39,8 +39,8 @@
         echo "<a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a>.<br />";
       }
     ?>
-    Release candidate builds are available <a href="http://www.nasm.us/pub/nasm/releasebuilds/">here</a>.<br />
-    Daily development snapshots are available <a href="http://www.nasm.us/pub/nasm/snapshots/">here</a>
+    Release candidate builds are available <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.<br />
+    Daily development snapshots are available <a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">here</a>
 (<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).</p>
   </div>
 
