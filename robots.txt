@@ -4,3 +4,4 @@
 User-Agent: *
 Disallow: /pub/
 Disallow: /docs/
+Disallow: /usage/
