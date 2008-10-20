@@ -50,7 +50,7 @@
     team led by H. Peter Anvin.<br />
     Currently active team members are:</p>
     <ul>
-      <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a>, <a href="http://www.rpath.com">rPath, Inc.</a></li>
+      <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a>
       <li><a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles Crayne</a></li>
       <li>Frank B. Kotler</li>
       <li><a href="http://www.kanios.net">Keith Kanios</a></li>
