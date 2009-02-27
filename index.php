@@ -46,18 +46,29 @@
   </div>
 
   <div class="item">
+   <h1>; R.I.P. Charles A. Crayne</h1>
+   <p>The NASM team was saddened by the recent news of the passing of
+   our friend, team member and computer industry veteran
+   <a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles Crayne</a>,
+   also moderator of the newsgroup <tt>comp.lang.asm.x86</tt>.
+   Charles passed away extremely suddenly on February 16, 2009 after just
+   having been diagnosed with spinal cancer.  He will be sorely missed.</p>
+  </div>
+
+  <div class="item">
     <h1>; Development Team</h1>
     <p>NASM was originally developed by Simon Tatham and Julian Hall, and is now maintained by a
     team led by H. Peter Anvin.<br />
     Currently active team members are:</p>
     <ul>
       <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a>
-      <li><a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles Crayne</a></li>
       <li>Frank B. Kotler</li>
+      <li>Victor van den Elzen</li>
       <li><a href="http://www.kanios.net">Keith Kanios</a></li>
     </ul>
-    <p>... and we are actively looking for more developers.  <strong>In particular,</strong> we really
-    need a maintainer for the <strong>MacOS X</strong> (Mach-O) backend!</p>
+    <p>... with support from many others, and we are actively looking for more developers.  <strong>In particular,</strong> we really
+    need maintainers for the <strong>ELF</strong> and
+   <strong>MacOS X</strong> (Mach-O) backend!</p>
   </div>
 
   <div class="item">
