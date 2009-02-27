@@ -49,8 +49,9 @@
    <h1>; R.I.P. Charles A. Crayne</h1>
    <p>The NASM team was saddened by the recent news of the passing of
    our friend, team member and computer industry veteran
-   <a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles Crayne</a>,
-   also moderator of the newsgroup <tt>comp.lang.asm.x86</tt>.
+   <a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles A. Crayne</a>,
+   also moderator of the newsgroup <tt>comp.lang.asm.x86</tt> and author of the
+   book <em>Serious Assembler</em>.
    Charles passed away extremely suddenly on February 16, 2009 after just
    having been diagnosed with spinal cancer.  He will be sorely missed.</p>
   </div>
