@@ -62,7 +62,7 @@
     team led by H. Peter Anvin.<br />
     Currently active team members are:</p>
     <ul>
-      <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a>
+      <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a></li>
       <li>Frank B. Kotler</li>
       <li>Victor van den Elzen</li>
       <li><a href="http://www.kanios.net">Keith Kanios</a></li>
