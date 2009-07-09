@@ -68,8 +68,7 @@
       <li><a href="http://www.kanios.net">Keith Kanios</a></li>
       <li>Cyrill Gorcunov</li>
     </ul>
-    <p>... with support from many others, and we are actively looking for more developers.  <strong>In particular,</strong> we really
-    need maintainers for the <strong>MacOS X</strong> (Mach-O) backend!</p>
+    <p>... with support from many others, and we are actively looking for more developers.
   </div>
 
   <div class="item">
