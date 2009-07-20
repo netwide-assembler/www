@@ -46,6 +46,13 @@
   </div>
 
   <div class="item">
+   <h1>; Historic Versions</h1>
+   <p>Historical releases from version 0.99.05 onwards are available
+   <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.<br />
+   Older releases are available from
+   <a href="http://sourceforge.net/projects/nasm/files/">Sourceforge</a>.</p>
+
+  <div class="item">
    <h1>; NASM is now under the Simplified BSD License</h1>
    <p>As of version 2.07, NASM is now under the Simplified (2-clause)
    BSD license.  The details of the license are available
