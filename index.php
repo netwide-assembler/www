@@ -46,6 +46,12 @@
   </div>
 
   <div class="item">
+   <h1>; NASM is now under the Simplified BSD License</h1>
+   <p>As of version 2.07, NASM is now under the Simplified (2-clause)
+   BSD license.  The details of the license are available
+   <a href="/doc/nasmdoc1.html#section-1.1.2">in the documentation</a>.</p>
+
+  <div class="item">
    <h1>; R.I.P. Charles A. Crayne</h1>
    <p>The NASM team was saddened by the recent news of the passing of
    our friend, team member and computer industry veteran
