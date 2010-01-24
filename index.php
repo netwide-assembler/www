@@ -59,15 +59,9 @@
    <a href="/doc/nasmdoc1.html#section-1.1.2">in the documentation</a>.</p>
 
   <div class="item">
-   <h1>; R.I.P. Charles A. Crayne</h1>
-   <p>The NASM team was saddened by the recent news of the passing of
-   our friend, team member and computer industry veteran
-   <a href="http://www.pacificsites.com/~ccrayne/charles.html">Charles A. Crayne</a>,
-   also moderator of the newsgroup <em>comp.lang.asm.x86</em> and author of the
-   book <em>Serious Assembler</em>.
-   Charles passed away extremely suddenly on February 16, 2009 after just
-   having been diagnosed with spinal cancer.  He will be sorely missed.</p>
-  </div>
+   <h1>; New forums</h1>
+   <p>On 23 January 2010, we moved the NASM forums away from Sourceforge
+   onto a dedicated server.  See the new link above.</p>
 
   <div class="item">
     <h1>; Development Team</h1>
