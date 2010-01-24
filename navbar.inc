@@ -7,7 +7,7 @@ require('./version.inc');
  <ul>
   <li><a href="http://nasm.sourceforge.net/">Home</a></li>
   <li><a href="https://sourceforge.net/news/?group_id=6208">News</a></li>
-  <li><a href="https://forum.nasm.us/">Forum</a></li>
+  <li><a href="http://forum.nasm.us/">Forum</a></li>
   <li><a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
   <li><a href="http://repo.or.cz/w/nasm.git">Git Repository</a></li>
   <li><a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">Snapshots</a></li>
