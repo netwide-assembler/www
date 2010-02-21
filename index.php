@@ -51,17 +51,20 @@
    <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.<br />
    Older releases are available from
    <a href="http://sourceforge.net/projects/nasm/files/">Sourceforge</a>.</p>
+  </div>
 
   <div class="item">
    <h1>; NASM is now under the Simplified BSD License</h1>
    <p>As of version 2.07, NASM is now under the Simplified (2-clause)
    BSD license.  The details of the license are available
    <a href="/doc/nasmdoc1.html#section-1.1.2">in the documentation</a>.</p>
+  </div>
 
   <div class="item">
    <h1>; New forums</h1>
    <p>On 23 January 2010, we moved the NASM forums away from Sourceforge
    onto a dedicated server.  See the new link above.</p>
+  </div>
 
   <div class="item">
     <h1>; Development Team</h1>
@@ -118,7 +121,7 @@
     for this outstanding website design!!!</p>
   </div>
 
-  </div>
+  </div> <!-- class="cbody" -->
   <b class="cnr"><b class="cnr5"></b><b class="cnr4"></b>
   <b class="cnr3"></b><b class="cnr2"><b></b></b><b class="cnr1">
   <b></b></b></b>
@@ -130,7 +133,7 @@
     <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" style="border: none;" />
   </a>
 </p>
-</div>
+</div> <!-- id="content" -->
 
 </body>
 </html>
