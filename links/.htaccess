@@ -1,0 +1,6 @@
+#
+# Redirects to external websites, especially MSDN which seems to change URLs
+# way too often...
+#
+Redirect	/links/win64abi		http://msdn.microsoft.com/en-us/library/zthk2dkh.aspx
+Redirect	/links/unix64abi	http://www.x86-64.org/documentation/abi.pdf
