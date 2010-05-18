@@ -117,7 +117,7 @@
   <div class="item">
     <h1>; New Website Design</h1>
 
-    <p>Many thanks to <a href="http://asm.codegurus.org/">Bryant Keller</a> 
+    <p>Many thanks to <a href="http://assembly.ath.cx/">Bryant Keller</a> 
     for this outstanding website design!!!</p>
   </div>
 
