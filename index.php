@@ -32,7 +32,7 @@
   <div class="item">
   <h1>; Latest Version</h1>
   <p>The latest stable version of NASM is
-    <a href="http://www.nasm.us/pub/nasm/releasebuilds/<?= $version ?>/"><?= $version ?></a>
+    <a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a>
     (<a href="/doc/nasmdocc.html">revision history</a>).<br />
     <?php
       if ($rc_version) {
