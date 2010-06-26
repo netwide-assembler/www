@@ -27,7 +27,7 @@
   <div class="cbody">
 
   <div class="item">
-  <h1>NASM Documenation</h1>
+  <h1>; NASM Documenation</h1>
     <p>The NASM documentation is auto-generated every new release (including
        release candidates) and accessible either online or various offline
        archives.<br />
@@ -37,7 +37,7 @@
   </div>
 
   <div class="item">
-  <h1>Online Documenation</h1>
+  <h1>; Online Documenation</h1>
     <p>NASM online documentation is <a href="/doc/">here</a></p>
   </div>
 
@@ -50,7 +50,7 @@
     if ($version) {
         $pkg_name = "nasm-$version-xdoc";
         echo "<div class=\"item\">\n";
-        echo "<h1>Download Documenation for NASM-$version (stable version)</h1>\n";
+        echo "<h1>; Download Documenation for NASM-$version (stable version)</h1>\n";
         echo "<ul>\n";
         echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.gz\">$pkg_name.tar.bz2</a></li>\n";
         echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.gz\">$pkg_name.tar.gz</a></li>\n";
@@ -61,7 +61,7 @@
     if ($rc_version) {
         $pkg_name = "nasm-$rc_version-xdoc";
         echo "<div class=\"item\">\n";
-        echo "<h1>Download Documenation for NASM-$rc_version (release candidate)</h1>\n";
+        echo "<h1>; Download Documenation for NASM-$rc_version (release candidate)</h1>\n";
         echo "<ul>\n";
         echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.gz\">$pkg_name.tar.bz2</a></li>\n";
         echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.gz\">$pkg_name.tar.gz</a></li>\n";
