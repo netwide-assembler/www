@@ -46,7 +46,7 @@
      * When xdoc become available change this variable to
      * $pkg_path = http://www.nasm.us/xdoc/
      */
-    $path = "http://www.nasm.us/pub/nasm/releasebuilds";
+    $pkg_path = "http://www.nasm.us/pub/nasm/releasebuilds";
     if ($version) {
         $pkg_name = "nasm-$version-xdoc";
         echo "<div class=\"item\">\n";
