@@ -28,11 +28,15 @@
 
   <div class="item">
   <h1>; NASM Documenation</h1>
-    <p>The NASM documentation is auto-generated every new release (including
-       release candidates) and accessible either online or various offline
-       archives.<br />
-       Offline documentation is packed into archive which consists of
-       documentation in the following formats: pdf, ps, txt, html, info. 
+    <p>The NASM documentation is auto-generated on every new release (including
+       release candidates) and accessible either online or in various offline
+       archives. Such archives provide documentation in the following formats: pdf,
+       ps, txt, html, info.
+    </p>
+    <p>
+       If you don't know how to unpack this archives consider using
+       <a href="http://www.7-zip.org/">7-Zip file archiver</a> which should be
+       able to unpack any of them. And hey, 7-Zip is open source tool as well!
     </p>
   </div>
 
