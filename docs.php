@@ -34,15 +34,16 @@
        ps, txt, html, info.
     </p>
     <p>
-       If you don't know how to unpack this archives consider using
-       <a href="http://www.7-zip.org/">7-Zip file archiver</a> which should be
-       able to unpack any of them. And hey, 7-Zip is open source tool as well!
+       If you are not sure how to unpack these offline archives consider using
+       <a href="http://www.7-zip.org/">7-Zip file archiver</a>. It supports
+       quite a number of formats (including ones provided here). And hey, 7-Zip is
+       open source after all!
     </p>
   </div>
 
   <div class="item">
   <h1>; Online Documenation</h1>
-    <p>NASM online documentation is <a href="/doc/">here</a></p>
+    <p>NASM online documentation is <a href="/doc/">here</a>.</p>
   </div>
 
   <?php
