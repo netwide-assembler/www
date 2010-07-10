@@ -5,7 +5,7 @@ require('./version.inc');
 
 <div id="nav">
  <ul>
-  <li><a href="http://nasm.sourceforge.net/">Home</a></li>
+  <li><a href="http://nasm.us/">Home</a></li>
   <li><a href="https://sourceforge.net/news/?group_id=6208">News</a></li>
   <li><a href="http://forum.nasm.us/">Forum</a></li>
   <li><a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
