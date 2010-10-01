@@ -30,27 +30,42 @@
   </div>
 
   <div class="item">
-  <h1>; Latest Version</h1>
-  <p>The latest stable version of NASM is
-    <a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a>
-    (<a href="/doc/nasmdocc.html">revision history</a>).<br />
-    <?php
-      if ($rc_version) {
-        echo "The latest release candidate of NASM is ";
-        echo "<a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a>.<br />";
-      }
-    ?>
-    Release candidate builds are available <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.<br />
-    Daily development snapshots are available <a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">here</a>
-    (<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).</p>
+    <h1>; Latest Version</h1>
+    <p>
+      <ul>
+        <li>The latest stable version of NASM is
+          <a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a>
+          (<a href="/doc/nasmdocc.html">revision history</a>).
+        </li>
+        <?php
+          if ($rc_version) {
+            echo "<li>The latest release candidate of NASM is ";
+            echo "<a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a>.</li>";
+          }
+        ?>
+        <li>Release candidate builds are available
+          <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.
+        </li>
+        <li>Daily development snapshots are available
+          <a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">here</a>
+          (<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).
+        </li>
+      </ul>
+    </p>
   </div>
 
   <div class="item">
-   <h1>; Historic Versions</h1>
-   <p>Historical releases from version 0.99.05 onwards are available
-   <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.<br />
-   Older releases are available from
-   <a href="http://sourceforge.net/projects/nasm/files/">Sourceforge</a>.</p>
+    <h1>; Historic Versions</h1>
+    <p>
+      <ul>
+        <li>Historical releases from version 0.99.05 onwards are available
+            <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.
+        </li>
+        <li>Older releases are available from
+            <a href="http://sourceforge.net/projects/nasm/files/">Sourceforge</a>.
+        </li>
+      </ul>
+      </p>
   </div>
 
   <div class="item">
