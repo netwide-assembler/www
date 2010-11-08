@@ -30,27 +30,40 @@
   <h1>; NASM Documenation</h1>
     <p>The NASM documentation is auto-generated on every new release (including
        release candidates) and accessible either online or in various offline
-       archives. Such archives provide documentation in the following formats: pdf,
-       ps, txt, html, info.
+       archives. Such archives provide documentation in the following formats:
+       PDF, PostScript, plain text, HTML, and info.
     </p>
     <p>
-       If you are not sure how to unpack these offline archives consider using
+       If you are not sure how to unpack the offline archives consider using
        <a href="http://www.7-zip.org/">7-Zip file archiver</a>. It supports
-       quite a number of formats (including ones provided here). And hey, 7-Zip is
-       open source after all!
+       quite a number of formats (including ones provided here). And hey,
+       7-Zip is Open Source after all!
     </p>
-  </div>
-
-  <div class="item">
-  <h1>; Online Documenation</h1>
-    <p>NASM online documentation is <a href="/doc/">here</a>.</p>
   </div>
 
   <?php
-    /*
-     * When xdoc become available change this variable to
-     * $pkg_path = http://www.nasm.us/xdoc/
-     */
+    $onl_path = "http://www.nasm.us/xdoc/";
+    if ($version) {
+        echo "<div class=\"item\">\n";
+        echo "<h1>; Online Documenation for NASM-$version (stable version)</h1>\n";
+        echo "<ul>\n";
+        echo "<li><a href=\"$onl_path/$version/html/">HTML format</a></li>\n";
+        echo "<li><a href=\"$onl_path/$version/nasmdoc.pdf">PDF format</a></li>\n";
+        echo "</ul>\n";
+        echo "</div>\n";
+    }
+    if ($rc_version) {
+        echo "<div class=\"item\">\n";
+        echo "<h1>; Online Documenation for NASM-$version (release candidate)</h1>\n";
+        echo "<ul>\n";
+        echo "<li><a href=\"$onl_path/$rc_version/html/">HTML format</a></li>\n";
+        echo "<li><a href=\"$onl_path/$rc_version/nasmdoc.pdf">PDF format</a></li>\n";
+        echo "</ul>\n";
+        echo "</div>\n";
+    }
+  ?>
+
+  <?php
     $pkg_path = "http://www.nasm.us/pub/nasm/releasebuilds";
     if ($version) {
         $pkg_name = "nasm-$version-xdoc";
