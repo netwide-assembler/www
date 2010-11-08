@@ -42,12 +42,12 @@
   </div>
 
   <?php
-    $onl_path = "http://www.nasm.us/xdoc/";
+    $onl_path = "http://www.nasm.us/xdoc";
     if ($version) {
         echo "<div class=\"item\">\n";
         echo "<h1>; Online Documenation for NASM-$version (stable version)</h1>\n";
         echo "<ul>\n";
-        echo "<li><a href=\"$onl_path/$version/html/\">HTML format</a></li>\n";
+        echo "<li><a href=\"$onl_path/$version/html/nasmdoc0.html\">HTML format</a></li>\n";
         echo "<li><a href=\"$onl_path/$version/nasmdoc.pdf\">PDF format</a></li>\n";
         echo "</ul>\n";
         echo "</div>\n";
@@ -56,7 +56,7 @@
         echo "<div class=\"item\">\n";
         echo "<h1>; Online Documenation for NASM-$version (release candidate)</h1>\n";
         echo "<ul>\n";
-        echo "<li><a href=\"$onl_path/$rc_version/html/\">HTML format</a></li>\n";
+        echo "<li><a href=\"$onl_path/$rc_version/html/nasmdoc0.html\">HTML format</a></li>\n";
         echo "<li><a href=\"$onl_path/$rc_version/nasmdoc.pdf\">PDF format</a></li>\n";
         echo "</ul>\n";
         echo "</div>\n";
