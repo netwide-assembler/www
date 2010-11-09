@@ -33,12 +33,6 @@
        archives. Such archives provide documentation in the following formats:
        PDF, PostScript, plain text, HTML, and info.
     </p>
-    <p>
-       If you are not sure how to unpack the offline archives consider using
-       <a href="http://www.7-zip.org/">7-Zip file archiver</a>. It supports
-       quite a number of formats (including ones provided here). And hey,
-       7-Zip is Open Source after all!
-    </p>
   </div>
 
   <?php
