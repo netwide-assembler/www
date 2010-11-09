@@ -64,9 +64,9 @@
         echo "<div class=\"item\">\n";
         echo "<h1>; Download Documenation for NASM $version (stable version)</h1>\n";
         echo "<ul>\n";
-        echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.gz\">$pkg_name.tar.bz2</a></li>\n";
+        echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.bz2\">$pkg_name.tar.bz2</a></li>\n";
         echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.gz\">$pkg_name.tar.gz</a></li>\n";
-        echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.gz\">$pkg_name.tar.zip</a></li>\n";
+        echo "<li><a href=\"$pkg_path/$version/$pkg_name.zip\">$pkg_name.zip</a></li>\n";
         echo "</ul>\n";
         echo "</div>\n";
     }
@@ -75,9 +75,9 @@
         echo "<div class=\"item\">\n";
         echo "<h1>; Download Documenation for NASM $rc_version (release candidate)</h1>\n";
         echo "<ul>\n";
-        echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.gz\">$pkg_name.tar.bz2</a></li>\n";
+        echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.bz2\">$pkg_name.tar.bz2</a></li>\n";
         echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.gz\">$pkg_name.tar.gz</a></li>\n";
-        echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.gz\">$pkg_name.tar.zip</a></li>\n";
+        echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.zip\">$pkg_name.zip</a></li>\n";
         echo "</ul>\n";
         echo "</div>\n";
     }
