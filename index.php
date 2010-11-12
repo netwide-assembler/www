@@ -25,8 +25,8 @@
 
   <div class="item">
   <h1>; Welcome to The NASM Home Page!</h1>
-  <p>We're back at SourceForge - check out
-  <a href="https://sourceforge.net/projects/nasm">https://sourceforge.net/projects/nasm</a></p>
+  <p>We are gradually moving services away from Sourceforge to this page;
+     for our remaining Sourceforge services see <a href="https://sourceforge.net/projects/nasm">https://sourceforge.net/projects/nasm</a></p>.
   </div>
 
   <div class="item">
@@ -40,7 +40,8 @@
         <?php
           if ($rc_version) {
             echo "<li>The latest release candidate of NASM is ";
-            echo "<a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a>.</li>";
+            echo "<a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a>\n";
+            echo "(<a href=\"/xdoc/$rc_version/html/nasmdocc.html\">revision history</a>).</li>\n";
           }
         ?>
         <li>Release candidate builds are available
