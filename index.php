@@ -26,7 +26,7 @@
   <div class="item">
   <h1>; Welcome to The NASM Home Page!</h1>
   <p>We are gradually moving services away from Sourceforge to this page;
-     for our remaining Sourceforge services see <a href="https://sourceforge.net/projects/nasm">https://sourceforge.net/projects/nasm</a></p>.
+     for our remaining Sourceforge services see <a href="https://sourceforge.net/projects/nasm">https://sourceforge.net/projects/nasm</a>.</p>
   </div>
 
   <div class="item">
