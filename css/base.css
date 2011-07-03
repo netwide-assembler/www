@@ -1,159 +1,188 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	font-family: Verdana, Arial, sans-serif;
+	font-family: serif,sans,Verdana,Arial;
 	font-style: normal;
 	text-decoration: none;
+	outline: none;
 }
 
 body {
-	overflow: auto;
-	color: #FFFFFF;
-	background: #000000 url("../images/bg_main.gif") repeat-y 0 0;
+	background-color: #4682b4;
+	font-size: 16px;
+}
+img {
+    border: none;
 }
 
-ul {
-	list-style: disc;
-	margin-left: 2em;
+#wrap {
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 820px;
+	padding: 20px 40px 0;
 }
 
-#nav {
-	background: transparent url("../images/bg_nav.gif") repeat-x 0 0;
-	width: 100%;
-	display: inline;
-	height: 48px;
+#header {
+	margin-top: 10px;
+	text-align: center;
 }
 
-#nav,
-#nav ul,
-#nav ul li,
-#nav ul li a {
-	height: 48px;
-	float: left;
+#header h1 {
+	letter-spacing: -2px;
+	line-height: 1;
+	margin: 10px 0 30px;
+	word-spacing: 10px;
 }
 
-#nav ul {
+h1 {
+	font-size: 80px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+#header h4 {
+	border-top: 1px solid #4682B4;
+	border-bottom: 1px solid #174A75;
+	padding: 0;
+	display: block;
+}
+
+#header h4 ul {
+	background-color: #496B87;
+	padding-bottom: 3px;
+}
+
+#header h4,
+#header h4 ul,
+#header h4 ul li,
+#header h4 ul li a {
+/*	float: left; */
+}
+
+#header h4 ul {
 	list-style: none;
 }
 
-#nav ul li {
+#header h4 ul li {
 	padding: 0px 2px;
 	margin: 0 0 0 10px;
+	display: inline;
 }
 
-#nav ul li a {
-	color: #5B9CFF;
-	height: 48px;
-	line-height: 48px;
+#header h4 ul li a {
+	color: #BFA861;
 	font-size: 14px;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
+	text-transform: uppercase;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 
-#nav ul li a:hover {
+#header h4 ul li a:hover {
 	color: yellow;
-	height: 48px;
+	text-decoration: none;
 }
 
-h1 a {
-	color: #5b9cff;
-}
-
-a {
-	color: white;
-	font-weight: bold;
-}
-
-a:hover {
-	color: yellow;
+#outer {
+	margin: 36px 0 0;
 }
 
 #content {
-	margin-left: 200px;
-	margin-right: 50px;
+	width: 800px;
+	margin: 0 auto;
+	color: #fff
 }
 
-.cnr {
-	display: block
-}
-
-.cnr * {
-	display: block;
-	height: 1px;
-	overflow: hidden;
-	font-size: .01em;
-	background: #2E5BB6;
-}
-
-.cnr1 {
-	margin-left: 3px;
-	margin-right: 3px;
-	padding-left: 1px;
-	padding-right: 1px;
-	border-left: 1px solid #13274E;
-	border-right: 1px solid #13274E;
-	background: #224488;
-}
-
-.cnr2 {
-	margin-left: 1px;
-	margin-right: 1px;
-	padding-right: 1px;
-	padding-left: 1px;
-	border-left: 1px solid #040912;
-	border-right: 1px solid #040912;
-	background: #254993;
-}
-
-.cnr3 {
-	margin-left: 1px;
-	margin-right: 1px;
-	border-left: 1px solid #254993;
-	border-right: 1px solid #254993;
-}
-
-.cnr4 {
-	border-left: 1px solid #13274E;
-	border-right: 1px solid #13274E;
-}
-
-.cnr5 {
-	border-left: 1px solid #224488;
-	border-right: 1px solid #224488;
-}
-
-.cbody {
-	color: #FFFFFF;
-	background: #000000 url("../images/bg_cont.gif");
-	padding: 3px;
-	font-size: 14px;
-}
-
-.cbody p {
-	margin-left: 30px;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-
-.cbody .item {
-	margin-top: 17px;
-	margin-bottom: 17px;
-}
-
-.cbody h1 {
-	color: #45C1F9;
-	font-family: Verdana, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 16px;
+#content h1 {
 	margin-left: 7px;
 	margin-bottom: 4px;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 20px 0 13px;
 }
 
-.cbody ul {
-	list-style: disc;
-	margin-left: 4em;
+
+#content p {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 2px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
 }
 
+#content ul li {
+	margin-left: 30px;
+	line-height: 24px;
+}
+
+#content a {
+	color: #00FF00;
+	color: #FFD658;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#content a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*
+4682B4
+4682B4
+	
+496B87
+496B87
+	
+174A75
+174A75
+	
+76ACDA
+76ACDA
+	
+90B8DA
+90B8DA
+FFD658
+FFD658
+	
+BFA861
+BFA861
+	
+A6841D
+A6841D
+	
+FFE082
+FFE082
+	
+FFE8A3
+FFE8A3
+FF8A58
+FF8A58
+	
+BF7D61
+BF7D61
+	
+A6451D
+A6451D
+	
+FFA782
+FFA782
+	
+FFBEA3
+FFBEA3
+*/
