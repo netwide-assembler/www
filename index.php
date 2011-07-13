@@ -60,7 +60,6 @@
             <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a></li>
             <li>Frank B. Kotler</li>
             <li>Victor van den Elzen</li>
-            <li><a href="http://www.kanios.net">Keith Kanios</a></li>
             <li>Cyrill Gorcunov</li>
         </ul>
         <p>... with support from many others, and we are actively looking for more developers.</p>
