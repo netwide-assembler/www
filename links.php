@@ -30,8 +30,6 @@
                 - information about using NASM with GNU/Linux and BSD systems.</li>
             <li><a href="http://www.ctyme.com/rbrown.htm" target="_blank">Ralf Brown's Interrupt List</a>
                 - every documented/undocumented interrupt call known in a single list.</li>
-            <li><a href="http://www.dynatos.org/" target="_blank">DynatOS</a>
-                - an operating system project with an x86 kernel designed purely in NASM.</li>
         </ul>
 
     </div> <!-- content -->
