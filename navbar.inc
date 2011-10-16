@@ -13,6 +13,7 @@ require('./version.inc');
         <li><a href="http://repo.or.cz/w/nasm.git">Git-Repo</a></li>
         <li><a href="/docs.php">Docs</a></li>
         <li><a href="https://sourceforge.net/tracker/?atid=106208&amp;group_id=6208&amp;func=browse">Bugs</a></li>
+        <li><a href="/patches.php">Patches</a></li>
         <li><a href="/links.php">Links</a></li>
         <li><a href="https://sourceforge.net/project/memberlist.php?group_id=6208">Credits</a></li>
       </ul>
