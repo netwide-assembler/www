@@ -27,7 +27,7 @@
                 <a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a>
                 (<a href="/doc/nasmdocc.html">revision history</a>).
             </li>
-    
+
             <?php
                 if ($rc_version) {
                     echo "<li>The latest release candidate of NASM is ";
@@ -39,7 +39,7 @@
             <li>Release candidate builds are available
                 <a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.
             </li>
-    
+
             <li>Daily development snapshots are available
                 <a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">here</a>
                 (<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).
