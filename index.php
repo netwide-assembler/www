@@ -71,8 +71,7 @@
 
         <p>Please post your messages to the
         <a href="https://sourceforge.net/mail/?group_id=6208">mailing list</a>, or file a
-        <a href="https://sourceforge.net/tracker/?atid=106208&amp;group_id=6208&amp;func=browse">
-        bug report</a>.</p>
+        <a href="http://bugzilla.nasm.us/">bug report</a>.</p>
 
         <p>Don't worry if your report is not immediately addressed, even
         within the first few days, as this is usual for us. Your report will,
