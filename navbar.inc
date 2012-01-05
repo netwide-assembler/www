@@ -3,8 +3,8 @@
 require('./version.inc');
 ?> -->
 
+<a href="http://nasm.us/"><img src="nasm.png" alt="NASM" width="292" height="171"></a>
 <div id="header">
-  <a href="/"><img src="images/nasm.png" alt="NASM" width="417" height="244"></a>
     <h4>
       <ul>
         <li><a href="http://nasm.us/">Home</a></li>
