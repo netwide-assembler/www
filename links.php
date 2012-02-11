@@ -26,7 +26,7 @@
                 - enhanced NASM development kit.</li>
             <li><a href="http://www.drpaulcarter.com/pcasm" target="_blank">Paul Carter's Tutorial</a>
                 - introduction to 32-bit assembly - NASM syntax.</li>
-            <li><a href="http://www.linuxassembly.org/" target="_blank">LinuxAssembly</a>
+            <li><a href="http://asm.sourceforge.net/" target="_blank">LinuxAssembly</a>
                 - information about using NASM with GNU/Linux and BSD systems.</li>
             <li><a href="http://www.ctyme.com/rbrown.htm" target="_blank">Ralf Brown's Interrupt List</a>
                 - every documented/undocumented interrupt call known in a single list.</li>
