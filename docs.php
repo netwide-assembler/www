@@ -64,5 +64,8 @@
 
     </div> <!-- content -->
     </div> <!-- outer -->
+
+    <?php include "footer.inc" ?>
+
 </body>
 </html>

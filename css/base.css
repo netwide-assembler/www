@@ -39,6 +39,15 @@ img {
 	word-spacing: 10px;
 }
 
+#footer {
+	border-top: 1px solid #CCC;
+	position: relative;
+	padding: 4pt 0pt;
+	margin: 20pt 0pt;
+	width: 100%;
+	text-align: center;
+}
+
 h1 {
 	font-size: 80px;
 }
