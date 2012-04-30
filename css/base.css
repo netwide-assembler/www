@@ -64,8 +64,8 @@ h4 {
 
 #header h4 ul {
 	padding-bottom: 3px;
-	border-top: 4px double #CCC;
-	border-bottom: 4px double #CCC;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
 }
 
 #header h4,
