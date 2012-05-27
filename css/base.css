@@ -87,10 +87,10 @@ h4 {
 }
 
 #header h4 ul li a {
-	color: #1a3463;
+	color: #3b5998;
 	font-size: 14px;
 	font-weight: bold;
-	text-decoration: underline;
+	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0;
@@ -98,7 +98,7 @@ h4 {
 }
 
 #header h4 ul li a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 #outer {
@@ -136,13 +136,13 @@ h4 {
 }
 
 #content a {
-	color: #1a3463;
-	text-decoration: underline;
+	color: #3b5998;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 #content a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 h3 {
