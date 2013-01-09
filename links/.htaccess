@@ -2,5 +2,5 @@
 # Redirects to external websites, especially MSDN which seems to change URLs
 # way too often...
 #
-Redirect	/links/win64abi		http://msdn.microsoft.com/en-us/library/9b372w95.aspx
+Redirect	/links/win64abi		http://msdn.microsoft.com/en-us/library/7kcdt6fy.aspx
 Redirect	/links/unix64abi	http://www.x86-64.org/documentation/abi.pdf
