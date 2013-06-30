@@ -1,8 +1,7 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	font-family: sans-serif,Verdana,Arial;
-	font-family: Georgia,"Times New Roman",Times,serif;
+	font-family: 'Titillium Web', serif;
 	font-style: normal;
 	text-decoration: none;
 	outline: none;
@@ -50,6 +49,7 @@ img {
 
 h1 {
 	font-size: 80px;
+	font-family: 'Monda', serif;
 }
 
 h4 {
