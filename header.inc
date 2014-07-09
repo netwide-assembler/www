@@ -4,5 +4,4 @@
   <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
   <link href='http://fonts.googleapis.com/css?family=Monda|Titillium+Web|Inconsolata' rel='stylesheet' type='text/css'>
   <title>The Netwide Assembler: NASM</title>
-  <meta name="globalsign-domain-verification" content="rnHLlAfdI6izlAhGis3b5oEthJxvokH5i9F5hZgUpO" />
 </head>
