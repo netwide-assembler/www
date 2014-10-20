@@ -53,12 +53,12 @@
 
         <p>Currently active team members are:</p>
         <ul>
-            <li><a href="http://www.zytor.com/~hpa/">H. Peter Anvin</a></li>
-            <li>Frank B. Kotler</li>
-            <li>Jin Kyu Song</li>
+            <li>H. Peter Anvin</li>
+            <li>Jim Kukunas</li>
             <li>Cyrill Gorcunov</li>
+            <li>Frank B. Kotler</li?>
         </ul>
-        <p>... with support from many others, and we are actively looking for more developers.</p>
+        <p>... with support from many others, and we are always looking for more developers.</p>
 
         <h1>Your reports aren't going to /dev/null</h1>
         <p>We're looking for your comments, suggestions and, of course,
