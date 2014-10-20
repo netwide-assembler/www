@@ -1,1 +1,1 @@
-<div id="footer">(c) 1996 - 2012 The NASM team</div>
+<div id="footer">&copy; 1996 - 2014 The NASM development team</div>
