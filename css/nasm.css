@@ -1,0 +1,78 @@
+body {
+	font-family: 'Roboto', serif;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+a {
+	color: #3b5998;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #3b5998;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+h3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 24px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.shaded-code {
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.428571429;
+	color: #333333;
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+}
+
+.nasm-info {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #3b5998;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration: underline;
+	color: #3b5998;
+	font-weight: bold;
+}

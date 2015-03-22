@@ -1,1 +1,9 @@
-<div id="footer">&copy; 1996 - 2014 The NASM development team</div>
+<div class="container">
+	<div class="modal-footer">
+		<p>&copy;1996-2015 The NASM development team</p><p><img src="images/nasm.png" alt="NASM"></p>
+	</div>
+</div>
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/nasm.js"></script>

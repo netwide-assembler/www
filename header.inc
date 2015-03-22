@@ -1,7 +1,13 @@
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-  <link rel="stylesheet" type="text/css" href="css/base.css" />
-  <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
-  <link href='http://fonts.googleapis.com/css?family=Monda|Titillium+Web|Inconsolata' rel='stylesheet' type='text/css'>
-  <title>The Netwide Assembler: NASM</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>NASM</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/nasm.css" rel="stylesheet">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto|Monda|Inconsolata' rel='stylesheet' type='text/css'>
 </head>
