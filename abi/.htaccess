@@ -1,0 +1,8 @@
+#
+# Redirects to external websites, especially MSDN which seems to change URLs
+# way too often...
+#
+Redirect	/abi/win64		http://msdn.microsoft.com/en-us/library/7kcdt6fy.aspx
+Redirect	/abi/unix		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
+Redirect	/abi/unix64		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
+Redirect	/abi/unix32		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
