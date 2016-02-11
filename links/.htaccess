@@ -2,7 +2,4 @@
 # Redirects to external websites, especially MSDN which seems to change URLs
 # way too often...
 #
-Redirect	/links/win64abi		http://msdn.microsoft.com/en-us/library/7kcdt6fy.aspx
-Redirect	/links/unixabi		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
-Redirect	/links/unix64abi	http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
-Redirect	/links/unix32abi	http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
+AliasMatch	^/links/(.*)abi$	/abi/$1

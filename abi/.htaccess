@@ -6,3 +6,5 @@ Redirect	/abi/win64		http://msdn.microsoft.com/en-us/library/7kcdt6fy.aspx
 Redirect	/abi/unix		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
 Redirect	/abi/unix64		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
 Redirect	/abi/unix32		http://github.com/hjl-tools/x86-psABI/wiki/X86-psABI/
+Redirect	/abi/mac		https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/MachORuntime/
+Redirect	/abi/macho		https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/MachORuntime/
