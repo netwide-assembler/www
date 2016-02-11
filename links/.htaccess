@@ -1,5 +1,4 @@
 #
-# Redirects to external websites, especially MSDN which seems to change URLs
-# way too often...
+# Redirects to external websites; see the /abi directory for ABI definitions
 #
-AliasMatch	^/links/(.*)abi$	/abi/$1
+RedirectMatch permanent "^/links/(.*)abi(/|)$"	"/abi/$1"
