@@ -49,6 +49,10 @@
 						<a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">here</a>
 						(<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).</li>
 					</ul></p>
+					<p>For users of RPM-based Linux distributions (e.g. Fedora, Red Hat, SUSE, ...),
+					  you can download the official NASM builds using
+					  <code>dnf</code> or <code>yum</code> by installing <a href="nasm.repo">nasm.repo</a> in your
+					  <code>/etc/yum/yum.repos.d</code> directory.</p>
 				</div>
 			</div>
 		</div>
