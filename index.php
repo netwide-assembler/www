@@ -68,8 +68,9 @@
 					<p>Currently active team members are:
 					<ul>
 						<li>H. Peter Anvin</li>
-						<li>Jim Kukunas</li>
 						<li>Cyrill Gorcunov</li>
+						<li>Chang Seok Bae</li>
+						<li>Jim Kukunas</li>
 						<li>Frank B. Kotler</li>
 					</ul>
 					</p>
