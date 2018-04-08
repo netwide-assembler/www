@@ -7,6 +7,7 @@
 
 	<title>NASM</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/web-fonts.css" rel="stylesheet">
 	<link href="css/nasm.css" rel="stylesheet">
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto|Monda|Inconsolata' rel='stylesheet' type='text/css'>
