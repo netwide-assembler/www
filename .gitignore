@@ -4,6 +4,7 @@
 /pub
 /usage
 /version.inc
+patches/
 #*
 *~
 *.bak
