@@ -32,27 +32,40 @@
 			<div class="row nasm-info">
 				<div class="col-md-12">
 					<h2>Latest version</h2>
-					<p><ul>
-						<li>The latest stable version of NASM is
-						<a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a>
-						(<a href="/doc/nasmdocc.html">revision history</a>).</li>
-						<?php
-							if ($rc_version) {
-								echo "<li>The latest release candidate of NASM is ";
-								echo "<a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a>\n";
-								echo "(<a href=\"/xdoc/$rc_version/html/nasmdocc.html\">revision history</a>).</li>\n";
-							}
-						?>
-						<li>Release candidate builds are available
-						<a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">here</a>.</li>
-						<li>Daily development snapshots are available
-						<a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">here</a>
-						(<a href="http://www.nasm.us/pub/nasm/snapshots/latest/">latest</a>).</li>
-					</ul></p>
+					<p>
+					<table class="table table-hover table-responsive">
+					<tbody>
+					<tr>
+						<th scope="row">Stable</th>
+						<td><a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a></td>
+						<td><a href="https://nasm.us/doc/nasmdocc.html">History</a></td>
+					</tr>
+					<?php
+					if ($rc_version) {
+						echo "<tr>";
+						echo "<th scope=\"row\">RC</th>";
+						echo "<td><a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a></td>";
+						echo "<td><a href=\"https://nasm.us/xdoc/$rc_version/html/nasmdocc.html\">History</a></td>";
+						echo "</tr>";
+					}
+					?>
+					<tr>
+						<th scope="row">Builds</th>
+						<td><a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">List</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">Snapshots</th>
+						<td><a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">List</a></td>
+						<td><a href="http://www.nasm.us/pub/nasm/snapshots/latest/">Latest</a></td>
+					</tr>
+					</tbody>
+					</table>
+					</p>
 					<p>For users of RPM-based Linux distributions (e.g. Fedora, Red Hat, SUSE, ...),
-					  you can download the official NASM builds using
-					  <code>dnf</code> or <code>yum</code> by installing <a href="nasm.repo">nasm.repo</a> in your
-					  <code>/etc/yum/yum.repos.d</code> directory.</p>
+					you can download the official NASM builds using <code>dnf</code> or <code>yum</code>
+					by installing <a href="nasm.repo">nasm.repo</a> in your <code>/etc/yum/yum.repos.d</code>
+					directory.</p>
 				</div>
 			</div>
 		</div>
