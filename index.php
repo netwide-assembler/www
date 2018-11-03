@@ -56,8 +56,9 @@
 					</tr>
 					<tr>
 						<th scope="row">Snapshots</th>
-						<td><a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">List</a></td>
-						<td><a href="http://www.nasm.us/pub/nasm/snapshots/latest/">Latest</a></td>
+						<td><a href="http://www.nasm.us/pub/nasm/snapshots/latest/">Latest</a>,
+						<a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">List</a></td>
+						<td></td>
 					</tr>
 					</tbody>
 					</table>
