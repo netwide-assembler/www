@@ -13,9 +13,11 @@
 			<div class="row nasm-info">
 				<div class="col-md-6">
 					<h2>Welcome</h2>
-					<p>We are gradually moving services away from Sourceforge to this page.
-					For our remaining Sourceforge services see
-					<a href="https://sourceforge.net/projects/nasm">here</a>.</p>
+					<p>This is the project webpage
+		for the Netwide Assembler (NASM), an asssembler for
+		the x86 CPU architecture portable to nearly every
+		modern platform, and with code generation for many
+		platforms old and new.</p>
 				</div>
 				<div class="col-md-6">
 					<h2>License</h2>
@@ -104,7 +106,7 @@
 					for everyone!</p>
 
 					<p>Please post your messages to the
-					<a href="https://sourceforge.net/mail/?group_id=6208">mailing list</a>,
+					<a href="https://lists.nasm.us/nasm-devel/">mailing list</a>,
 					or file a <a href="http://bugzilla.nasm.us">bug report</a>.</p>
 					<p>Don't worry if your report is not immediately addressed, even within the
 					first few days, as this is usual for us. Your report will, however, be recorded

@@ -17,14 +17,13 @@ require('./version.inc');
 
 		<div class="collapse navbar-collapse navbar-right" id="navbar-collapse-id">
 			<ul class="nav navbar-nav">
-				<li><a href="http://forum.nasm.us">Forum</a></li>
-				<li><a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
-				<li><a href="http://repo.or.cz/w/nasm.git">Repo</a></li>
+				<li><a href="https://forum.nasm.us">Forum</a></li>
+				<li><a href="https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
+				<li><a href="https://repo.or.cz/w/nasm.git">Repo</a></li>
 				<li><a href="docs.php">Docs</a></li>
 				<li><a href="http://bugzilla.nasm.us">Bugs</a></li>
 				<li><a href="patches.php">Patches</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="https://sourceforge.net/project/memberlist.php?group_id=6208">Credits</a></li>
+				<li><a href="https://lists.nasm.us/">Lists</a></li>
 			</ul>
 		</div>
 	</div>
