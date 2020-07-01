@@ -78,6 +78,20 @@
 		<div class="container">
 			<div class="row nasm-info">
 				<div class="col-md-12">
+					<h2 class="centered">Infrastructure Change</h2>
+					<p>On July 1, 2020, the
+					      official NASM git repository moved to
+					      <a href="https://github.com/netwide-assembler/nasm.git">github</a>.</p>
+					<p>The previous repository on <em>repo.or.cz</em> is no longer maintained.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row nasm-info">
+				<div class="col-md-12">
 					<h2 class="centered">Development Team</h2>
 					<p>NASM was originally developed by Simon Tatham and Julian Hall, and is
 					now maintained by a team led by H. Peter Anvin.</p>

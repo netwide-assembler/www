@@ -19,7 +19,7 @@ require('./version.inc');
 			<ul class="nav navbar-nav">
 				<li><a href="https://forum.nasm.us">Forum</a></li>
 				<li><a href="https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
-				<li><a href="https://repo.or.cz/w/nasm.git">Repo</a></li>
+				<li><a href="https://github.com/netwide-assembler/nasm.git">Repo</a></li>
 				<li><a href="docs.php">Docs</a></li>
 				<li><a href="http://bugzilla.nasm.us">Bugs</a></li>
 				<li><a href="patches.php">Patches</a></li>
