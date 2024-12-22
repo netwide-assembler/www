@@ -13,9 +13,9 @@
 			<div class="row nasm-info">
 				<div class="col-md-12">
 					<h2 class="centered">Patches for NASM</h2>
-					<p>The NASM uses the <a href="http://git-scm.com/">GIT</a> version
-					control system. So we prefer to obtain well formatted patches which
-					would be simply merged into the repo without much efforts.</p>
+					<p>The NASM project uses the <a href="http://git-scm.com/">GIT</a> version
+					control system. We prefer receiving well-formatted patches that can be
+					seamlessly merged into the repository with minimal effort.</p>
 
 					<h3>Signing your work</h3>
 					<p>To improve tracking of who did what we've introduced a sign-off procedure on patches
