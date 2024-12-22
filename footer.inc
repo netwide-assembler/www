@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="modal-footer">
-		<p>&copy;1996-2015 The NASM development team</p><p><img src="images/nasm.png" alt="NASM"></p>
+		<p>&copy;1996-2024 The NASM development team</p><p><img src="images/nasm.png" alt="NASM"></p>
 	</div>
 </div>
 
