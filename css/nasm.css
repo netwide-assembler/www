@@ -76,3 +76,10 @@ p {
 	color: #3b5998;
 	font-weight: bold;
 }
+
+.navbar-home img.navbar-logo {
+	height: 50px;
+	width: auto;
+	max-height: 110%;
+	padding: 5px 10px;
+}
