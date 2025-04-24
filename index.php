@@ -13,9 +13,9 @@
 	<div class="row nasm-info">
 	<div class="col-md-12">
 	<h2 class="centered">Temporary Backup Domain</h2>
-	<p><em><?=$domain?></em>: This is a (hopefully)
+	<p><em><?=$domain?>:</em> This is a (hopefully)
 	temporary domain, pending restoration of our normal
-	domain,	<em>nasm.us</em>. Some of the features may be
+	domain,	<em>nasm.us.</em> Some of the features may be
 	broken.</p>
 	</div>
 	</div>
