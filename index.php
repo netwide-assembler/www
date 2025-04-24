@@ -13,10 +13,20 @@
 	<div class="row nasm-info">
 	<div class="col-md-12">
 	<h2 class="centered">Temporary Backup Domain</h2>
-	<p><em><?=$domain?>:</em> This is a (hopefully)
-	temporary domain, pending restoration of our normal
-	domain,	<em>nasm.us.</em> Some of the features may be
-	broken.</p>
+	<p><em><?=$domain?>:</em> This is a backup domain,
+	set up due to a temporary problem with our primary domain,
+	<a href="https://www.nasm.us/">nasm.us</a>. That domain has
+	now been restored; this remains active in order to provide
+	redundancy for any future or remaining problems.</p>
+
+	<p>Due to the temporary nature of this setup, some of the
+	features may be	broken.</p>
+
+	<p>We are, however, considering migrating to
+	<em>nasm.dev</em> as our primary domain in the future, as
+	it really reflects the international nature of our project
+	better.</p>
+
 	</div>
 	</div>
 	</div>
