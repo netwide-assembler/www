@@ -19,7 +19,7 @@
 					following formats: PDF, PostScript, plain text, HTML and info.</p>
 
 					<?php
-					$onl_path = "http://www.nasm.us/xdoc";
+					$onl_path = "http://www.$domain/xdoc";
 					if ($version) {
 						echo "<h3>Online for NASM $version (stable)</h3>\n";
 						echo "<p><ul>\n";
@@ -37,7 +37,7 @@
 					?>
 
 					<?php
-					$pkg_path = "http://www.nasm.us/pub/nasm/releasebuilds";
+					$pkg_path = "http://www.$domain/pub/nasm/releasebuilds";
 					if ($version) {
 						$pkg_name = "nasm-$version-xdoc";
 						echo "<h3>Downloadable for NASM $version (stable)</h3>\n";

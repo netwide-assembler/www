@@ -13,3 +13,4 @@
 	<link href="css/web-fonts.css" rel="stylesheet">
 	<link href="css/nasm.css" rel="stylesheet">
 </head>
+<?php $domain = preg_replace('/^www\./', '', $_SERVER['SERVER_NAME']); ?>

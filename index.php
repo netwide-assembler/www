@@ -1,5 +1,4 @@
 <?php echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +7,23 @@
 <body>
 	<?php include "navbar.inc" ?>
 
+<?php if ($domain !== 'nasm.us'): ?>
 	<div class="container-fluid">
+	<div class="container">
+	<div class="row nasm-info">
+	<div class="col-md-12">
+	<h2 class="centered"><b><?=$domain?></b>: Temporary Backup Domain</h2>
+	<p><b><?=$domain?></b>: This is a (hopefully)
+	temporary domain, pending restoration of our normal
+	domain,	<b>nasm.us</b>. Some of the features may be
+	broken.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+<?php endif; ?>
+
+      <div class="container-fluid">
 		<div class="container">
 			<div class="row nasm-info">
 				<div class="col-md-6">
@@ -18,8 +33,6 @@
 		the x86 CPU architecture portable to nearly every
 		modern platform, and with code generation for many
 		platforms old and new.</p>
-		<p><b>nasm.dev</b>: This is a temporary domain pending
-		restoration of our normal domain, <b>nasm.us</b>.</p>
 				</div>
 				<div class="col-md-6">
 					<h2>License</h2>
@@ -143,8 +156,8 @@
 					for everyone!</p>
 
 					<p>Please post your messages to the
-					<a href="https://lists.nasm.us/nasm-devel/">mailing list</a>,
-					or file a <a href="http://bugzilla.nasm.us">bug report</a>.</p>
+					<a href="https://lists.<?=$domain?>/nasm-devel/">mailing list</a>,
+					or file a <a href="http://bugzilla.<?=$domain?>">bug report</a>.</p>
 					<p>Don't worry if your report is not immediately addressed, even within the
 					first few days, as this is usual for us. Your report will, however, be recorded
 					and dealt with, of course, as time permits.</p>
