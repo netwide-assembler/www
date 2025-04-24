@@ -62,27 +62,27 @@
 					<tbody>
 					<tr>
 						<th scope="row">Stable</th>
-						<td><a href="http://www.nasm.us/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a></td>
-						<td><a href="https://nasm.us/doc/nasmdocc.html">History</a></td>
+						<td><a href="/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a></td>
+						<td><a href="/doc/nasmdocc.html">History</a></td>
 					</tr>
 					<?php
 					if ($rc_version) {
 						echo "<tr>";
 						echo "<th scope=\"row\">RC</th>";
-						echo "<td><a href=\"http://www.nasm.us/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a></td>";
-						echo "<td><a href=\"https://nasm.us/xdoc/$rc_version/html/nasmdocc.html\">History</a></td>";
+						echo "<td><a href=\"/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a></td>";
+						echo "<td><a href=\"/xdoc/$rc_version/html/nasmdocc.html\">History</a></td>";
 						echo "</tr>";
 					}
 					?>
 					<tr>
 						<th scope="row">Builds</th>
-						<td><a href="http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">List</a></td>
+						<td><a href="/pub/nasm/releasebuilds/?C=M;O=D">List</a></td>
 						<td></td>
 					</tr>
 					<tr>
 						<th scope="row">Snapshots</th>
-						<td><a href="http://www.nasm.us/pub/nasm/snapshots/latest/">Latest</a>,
-						<a href="http://www.nasm.us/pub/nasm/snapshots/?C=M;O=D">List</a></td>
+						<td><a href="/pub/nasm/snapshots/latest/">Latest</a>,
+						<a href="/pub/nasm/snapshots/?C=M;O=D">List</a></td>
 						<td></td>
 					</tr>
 					</tbody>
