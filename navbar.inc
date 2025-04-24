@@ -20,7 +20,7 @@ require('./version.inc');
 		<div class="collapse navbar-collapse navbar-right" id="navbar-collapse-id">
 			<ul class="nav navbar-nav">
 				<li><a href="https://forum.nasm.us">Forum</a></li>
-				<li><a href="https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
+				<li><a href="/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
 				<li><a href="https://github.com/netwide-assembler/nasm.git">Repo</a></li>
 				<li><a href="docs.php">Docs</a></li>
 				<li><a href="https://bugzilla.nasm.us">Bugs</a></li>
