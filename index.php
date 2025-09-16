@@ -13,17 +13,16 @@
 	<div class="row nasm-info">
 	<div class="col-md-12">
 	<h2 class="centered">Temporary Backup Domain</h2>
-	<p><em><?=$domain?>:</em> This is a backup domain,
+	<p><b><?=$domain?></b>: This is a backup domain,
 	set up due to a temporary problem with our primary domain,
 	<a href="https://www.nasm.us/">nasm.us</a>. That domain has
 	now been restored; this remains active in order to provide
 	redundancy for any future or remaining problems.</p>
 
-	<p>Due to the temporary nature of this setup, some of the
-	features may be	broken.</p>
+	<p>Not all features may be functional yet at this domain.</p>
 
 	<p>We are, however, considering migrating to
-	<em>nasm.dev</em> as our primary domain in the future, as
+	<b>nasm.dev</b> as our primary domain in the future, as
 	it really reflects the international nature of our project
 	better.</p>
 
@@ -86,35 +85,33 @@
 					<tr>
 						<th scope="row">Stable</th>
 						<td><a href="/pub/nasm/releasebuilds/<?php echo $version; ?>/"><?php echo $version; ?></a></td>
-						<td><a href="/doc/nasmdocc.html">History</a></td>
+						<td><a href="/doc/nasmdocc.html">Release notes</a></td>
 					</tr>
 					<?php
 					if ($rc_version) {
 						echo "<tr>";
 						echo "<th scope=\"row\">RC</th>";
 						echo "<td><a href=\"/pub/nasm/releasebuilds/$rc_version/\">$rc_version</a></td>";
-						echo "<td><a href=\"/xdoc/$rc_version/html/nasmdocc.html\">History</a></td>";
+						echo "<td><a href=\"/xdoc/$rc_version/html/nasmdocc.html\">Release notes</a></td>";
 						echo "</tr>";
 					}
 					?>
 					<tr>
-						<th scope="row">Builds</th>
-						<td><a href="/pub/nasm/releasebuilds/?C=M;O=D">List</a></td>
-						<td></td>
+					  <th scope="row">Development snapshot</th>
+					  <?php
+					   $latest = trim(file_get_contents("/pub/nasm/snapshots/latest/version.id"));
+					   echo "<td><a href=\"/pub/nasm/snapshots/latest/\">Latest ($latest)</a></td>";
+					   ?>
+					<td><a href="/pub/nasm/snapshots/latest/doc/html/nasmdocc.html">Release notes</a></td>
 					</tr>
 					<tr>
-						<th scope="row">Snapshots</th>
-						<td><a href="/pub/nasm/snapshots/latest/">Latest</a>,
-						<a href="/pub/nasm/snapshots/?C=M;O=D">List</a></td>
-						<td></td>
+						<th scope="row">Old versions</th>
+						<td><a href="/pub/nasm/releasebuilds/?C=M;O=D">Stable/RC</a></td>
+						<td><a href="/pub/nasm/snapshots/?C=M;O=D">Snapshots</a></td>
 					</tr>
 					</tbody>
 					</table>
 					</p>
-					<p>For users of RPM-based Linux distributions (e.g. Fedora, Red Hat, SUSE, ...),
-					you can download the official NASM builds using <code>dnf</code> or <code>yum</code>
-					by installing <a href="nasm.repo">nasm.repo</a> in your <code>/etc/yum/yum.repos.d</code>
-					directory.</p>
 				</div>
 			</div>
 		</div>
@@ -128,7 +125,7 @@
 					<p>On July 1, 2020, the
 					      official NASM git repository moved to
 					      <a href="https://github.com/netwide-assembler/nasm.git">github</a>.</p>
-					<p>The previous repository on <em>repo.or.cz</em> is no longer maintained.</p>
+					<p>The previous repository at <b>repo.or.cz</b> is no longer maintained.</p>
 				</div>
 			</div>
 		</div>
@@ -145,9 +142,8 @@
 					<ul>
 						<li>H. Peter Anvin</li>
 						<li>Cyrill Gorcunov</li>
-						<li>Chang Seok Bae</li>
-						<li>Jim Kukunas</li>
-						<li>Frank B. Kotler</li>
+						<li>Sheng Yongjie</li>
+						<li>Marciej Wieczor-Retman</li>
 					</ul>
 					</p>
 					<p>... with support from many others, and we are always looking for more developers.</p>
