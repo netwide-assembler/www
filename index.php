@@ -100,7 +100,7 @@
 					  <th scope="row">Development snapshot</th>
 					  <?php
 					   $latest = trim(file_get_contents("/pub/nasm/snapshots/latest/version.id"));
-					   echo "<td><a href=\"/pub/nasm/snapshots/latest/\">Latest ($latest)</a></td>";
+					   echo "<td><a href=\"/pub/nasm/snapshots/latest/\">$latest</a></td>";
 					   ?>
 					<td><a href="/pub/nasm/snapshots/latest/doc/html/nasmdocc.html">Release notes</a></td>
 					</tr>
