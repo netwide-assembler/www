@@ -1,6 +1,6 @@
 <!-- The comment markers are needed here, due to the polyglotness hack -->
 <!-- <?php
-require('./version.inc');
+require('/version.inc');
 ?> -->
 
 <nav class="navbar navbar-default" role="navigation">
@@ -21,9 +21,9 @@ require('./version.inc');
 			<ul class="nav navbar-nav">
 				<li><a href="https://forum.nasm.us">Forum</a></li>
 				<li><a href="/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
-				<li><a href="https://github.com/netwide-assembler/nasm.git">Repo</a></li>
-				<li><a href="docs.php">Docs</a></li>
-				<li><a href="https://bugzilla.nasm.us">Bugs</a></li>
+				<li><a href="/links/repo">Repo</a></li>
+				<li><a href="/docs.php">Docs</a></li>
+				<li><a href="https://bugzilla.nasm.us/">Bugs</a></li>
 				<li><a href="patches.php">Patches</a></li>
 				<li><a href="https://lists.nasm.us/">Lists</a></li>
 			</ul>

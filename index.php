@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "header.inc" ?>
+<?php include "/header.inc" ?>
 
 <body>
-	<?php include "navbar.inc" ?>
+	<?php include "/navbar.inc" ?>
 
 <?php if ($domain !== 'nasm.us'): ?>
 	<div class="container-fluid">
@@ -172,6 +172,6 @@
 		</div>
 	</div>
 
-	<?php include "footer.inc" ?>
+	<?php include "/footer.inc" ?>
 </body>
 </html>

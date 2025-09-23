@@ -1,4 +1,6 @@
 #
 # Redirects to external websites; see the /abi directory for ABI definitions
 #
-RedirectMatch permanent "^/links/(.*)abi(/|)$"	"/abi/$1"
+Redirect "/specs/apx"	"https://www.intel.com/content/www/us/en/developer/articles/technical/advanced-performance-extensions-apx.html"
+Redirect "/specs/intel"	"https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html"
+Redirect "/specs/amd"	"https://www.amd.com/en/search/documentation/hub.html"

@@ -4,6 +4,8 @@
 /pub
 /usage
 /version.inc
+/buildlogs
+scripts/
 patches/
 #*
 *~

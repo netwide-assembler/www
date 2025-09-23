@@ -5,3 +5,6 @@ User-Agent: *
 Disallow: /pub/
 Disallow: /docs/
 Disallow: /usage/
+Disallow: /xdoc/
+Disallow: /buildlogs
+Disallow: /scripts/

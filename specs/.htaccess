@@ -1,0 +1,3 @@
+Redirect "/specs/intel"	"https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html"
+Redirect "/specs/amd"	"https://www.amd.com/en/search/documentation/hub.html#sortCriteria=%40amd_release_date%20descending&f-amd_document_type=Programmer%20References&f-amd_document_location=AMD.com&f-amd_archive_status=Active&f-amd_product_type=Processors"
+Redirect "/specs/apx"	"https://www.intel.com/content/www/us/en/developer/articles/technical/advanced-performance-extensions-apx.html"
