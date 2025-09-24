@@ -1,4 +1,5 @@
 <?php /* -*- html -*- */ ?><!DOCTYPE html>
+<html lang="en">
   <?php
 	$top = __DIR__;
 	include("$top/version.inc");
@@ -30,7 +31,6 @@
 	$snap_pdf     = "$snap_docs/nasmdoc.pdf";
 	$snap_notes   = "${snap_doc}$changes";
   ?>
-<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
