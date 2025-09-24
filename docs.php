@@ -1,67 +1,52 @@
+<?php include "header.inc" /* -*- html -*- */ ?>
+<?php include "navbar.inc" ?>
 
-<!DOCTYPE html>
-<html lang="en">
+<div class="container-fluid">
+  <div class="container">
+    <div class="row nasm-info">
+      <div class="col-md-12">
+	<h2 class="centered">Documentation</h2>
+	<p>The NASM documentation is auto-generated on every new release
+	  (including release candidates, that named -rc) and accessible either online
+	  or in various offline archives. Such archives provide documentation in the
+	  following formats: PDF, PostScript, plain text, HTML and info.</p>
 
-<?php include "/header.inc" ?>
+	<h3>Online for NASM <?=$version?> (stable)</h3>
+	<p><ul>
+	    <li><a href="<?=$stable_doc?>">HTML format</a></li>
+	    <li><a href="<?=$stable_pdf?>">PDF format</a></li>\n";
+	</ul></p>
 
-<body>
-	<?php include "/navbar.inc" ?>
+	<?php if ($rc_version): ?>
+	<h3>Online for NASM $<?=$rc_version?> (prerelease)</h3>
+	<p><ul>
+	    <li><a href="<?=$rc_doc?>">HTML format</a></li>
+	    <li><a href="<?=$rc_pdf?">PDF format</a></li>
+	</ul></p>
+	<?php endif; ?>
 
-	<div class="container-fluid">
-		<div class="container">
-			<div class="row nasm-info">
-				<div class="col-md-12">
-					<h2 class="centered">Documentation</h2>
-					<p>The NASM documentation is auto-generated on every new release
-					(including release candidates, that named -rc) and accessible either online
-					or in various offline archives. Such archives provide documentation in the
-					following formats: PDF, PostScript, plain text, HTML and info.</p>
+	<?php $xdoc = "nasm-$version-xdoc"; ?>
+	<?php $xdpath = "$stable_path/$xdoc"; ?>
+	<h3>Downloadable for NASM $version (stable)</h3>
+	<p><ul>
+	    <li><a href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
+	    <li><a href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
+	    <li><a href="<?=$xdpath?>.zip"><?=$xdoc?>.zip</a></li>
+	</ul></p>
 
-					<?php
-					$onl_path = "http://www.$domain/xdoc";
-					if ($version) {
-						echo "<h3>Online for NASM $version (stable)</h3>\n";
-						echo "<p><ul>\n";
-						echo "<li><a href=\"$onl_path/$version/html/nasmdoc0.html\">HTML format</a></li>\n";
-						echo "<li><a href=\"$onl_path/$version/nasmdoc.pdf\">PDF format</a></li>\n";
-						echo "</ul></p>\n";
-					}
-					if ($rc_version) {
-						echo "<h3>Online for NASM $rc_version (-rc)</h3>\n";
-						echo "<p><ul>\n";
-						echo "<li><a href=\"$onl_path/$rc_version/html/nasmdoc0.html\">HTML format</a></li>\n";
-						echo "<li><a href=\"$onl_path/$rc_version/nasmdoc.pdf\">PDF format</a></li>\n";
-						echo "</ul></p>\n";
-					}
-					?>
+	<?php if ($rc_version): ?>
+	<?php $xdoc = "nasm-$rc_version-xdoc"; ?>
+	<?php $xdpath = "$rc_path/$xdoc"; ?>
+	<h3>Downloadable for NASM $rc_version (prerelease)</h3>
+	<p><ul>
+	    <li><a href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
+	    <li><a href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
+	    <li><a href="<?=$xdpath?>.zip"><?=$xdoc?>.zip</a></li>
+	</ul></p>
+	<?php endif; ?>
+      </div>
+    </div>
+  </div>
+</div>
 
-					<?php
-					$pkg_path = "http://www.$domain/pub/nasm/releasebuilds";
-					if ($version) {
-						$pkg_name = "nasm-$version-xdoc";
-						echo "<h3>Downloadable for NASM $version (stable)</h3>\n";
-						echo "<p><ul>\n";
-						echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.bz2\">$pkg_name.tar.bz2</a></li>\n";
-						echo "<li><a href=\"$pkg_path/$version/$pkg_name.tar.gz\">$pkg_name.tar.gz</a></li>\n";
-						echo "<li><a href=\"$pkg_path/$version/$pkg_name.zip\">$pkg_name.zip</a></li>\n";
-						echo "</ul></p>\n";
-					}
-					if ($rc_version) {
-						$pkg_name = "nasm-$rc_version-xdoc";
-						echo "<h3>Downloadable for NASM $rc_version (-rc)</h3>\n";
-						echo "<p><ul>\n";
-						echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.bz2\">$pkg_name.tar.bz2</a></li>\n";
-						echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.tar.gz\">$pkg_name.tar.gz</a></li>\n";
-						echo "<li><a href=\"$pkg_path/$rc_version/$pkg_name.zip\">$pkg_name.zip</a></li>\n";
-						echo "</ul></p>\n";
-					}
-				?>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<?php include "/footer.inc" ?>
-</body>
-</html>
+<?php include "footer.inc" ?>
