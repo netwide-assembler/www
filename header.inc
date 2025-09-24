@@ -15,7 +15,7 @@
 	$stable_pdf   = "$stable_docs/nasmdoc.pdf";
 	$stable_notes = "${stable_doc}$changes";
 
-	if (defined($rc_version)) {
+	if (isset($rc_version)) {
 	    $rc_path  = "$release_root/$version";
             $rc_docs  = "$doc_root/$rc_version";
             $rc_doc   = "$rc_docs/html/";
@@ -40,7 +40,7 @@
     <meta name="author" content="Netwide Assembler (NASM) Team">
     <meta name="keywords" content="NASM, assembler, assembly language">
 
-    <?php if (!defined($title)) { $title = 'NASM'; } ?>
+    <?php if (!isset($title)) { $title = 'NASM'; } ?>
     <title><?=$title?></title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">

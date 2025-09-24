@@ -60,7 +60,7 @@
 		<td><a href="<?=$stable_path?>"><?=$version?></td>
 		<td><a href="<?=$stable_notes?>">Release notes</a></td>
 	      </tr>
-	      <?php if (defined($rc_version)): ?>
+	      <?php if (isset($rc_version)): ?>
 	      <tr>
 		<th scope="row">RC</th>
 		<td><a href="<?=$rc_path?>"><?=$rc_version?></a></td>
