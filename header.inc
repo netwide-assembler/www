@@ -1,6 +1,8 @@
 <?php /* -*- html -*- */ ?><!DOCTYPE html>
 <html lang="en">
-  <?php
+  <!-- <?php
+        // This php block must be inside an html comment, or
+        // version.inc will produce crap
 	$top = __DIR__;
 	include("$top/version.inc");
 	$domain = preg_replace('/^www\./', '', $_SERVER['SERVER_NAME']);
@@ -30,7 +32,7 @@
 	$snap_doc     = "$snap_docs/html/";
 	$snap_pdf     = "$snap_docs/nasmdoc.pdf";
 	$snap_notes   = "${snap_doc}$changes";
-  ?>
+  ?> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
