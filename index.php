@@ -2,7 +2,7 @@
 <?php if ($domain === ''): ?>
 <strong>Something is wrong on the server. Please excuse any formatting
   or other errors you may see.</strong>
-<?php else if ($domain !== 'nasm.us'): ?>
+<?php elseif ($domain !== 'nasm.us'): ?>
 <div class="container-fluid">
   <div class="container">
     <div class="row nasm-info">
