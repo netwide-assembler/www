@@ -17,7 +17,7 @@
 	    <li><a href="<?=$stable_pdf?>">PDF format</a></li>\n";
 	</ul></p>
 
-	<?php if ($rc_version): ?>
+	<?php if (defined($rc_version)): ?>
 	<h3>Online for NASM $<?=$rc_version?> (prerelease)</h3>
 	<p><ul>
 	    <li><a href="<?=$rc_doc?>">HTML format</a></li>
@@ -34,7 +34,7 @@
 	    <li><a href="<?=$xdpath?>.zip"><?=$xdoc?>.zip</a></li>
 	</ul></p>
 
-	<?php if ($rc_version): ?>
+	<?php if (defined($rc_version)): ?>
 	<?php $xdoc = "nasm-$rc_version-xdoc"; ?>
 	<?php $xdpath = "$rc_path/$xdoc"; ?>
 	<h3>Downloadable for NASM $rc_version (prerelease)</h3>
