@@ -84,7 +84,7 @@
 	      <?php if ($rc_version): ?>
 	      <tr>
 		<th scope="row">RC</th>
-		<td><a href="<?=$rc_path"><?=$rc_version?></a></td>
+		<td><a href="<?=$rc_path?>"><?=$rc_version?></a></td>
 		<td><a href="<?=$rc_notes?>">Release notes</a></td>
 	      </tr>
 	      <?php endif; ?>
@@ -95,8 +95,8 @@
 	      </tr>
 	      <tr>
 		<th scope="row">Old versions</th>
-		<td><a href="/pub/nasm/releasebuilds/?C=M;O=D">Stable/RC</a></td>
-		<td><a href="/pub/nasm/snapshots/?C=M;O=D">Snapshots</a></td>
+		<td><a href="<?=$release_root?>/">Stable/RC</a></td>
+		<td><a href="<?=$snap_root?>/">Snapshots</a></td>
 	      </tr>
 	    </tbody>
 	  </table>
