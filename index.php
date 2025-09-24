@@ -47,27 +47,6 @@
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="container">
-    <div class="row nasm-info">
-      <div class="col-md-6">
-	<h2>Welcome</h2>
-	<p>This is the project webpage
-	  for the Netwide Assembler (NASM), an assembler for
-	  the x86 CPU architecture portable to nearly every
-	  modern platform, and with code generation for many
-	  platforms old and new.</p>
-      </div>
-      <div class="col-md-6">
-	<h2>License</h2>
-	<p>As of version 2.07, NASM is now under the
-	  <a href="http://opensource.org/licenses/BSD-2-Clause">Simplified (2-clause) BSD license</a>.
-	  The details of the license are available in the documentation.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container-fluid nasm-info">
   <div class="container">
     <div class="row nasm-info">
