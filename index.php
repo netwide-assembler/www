@@ -1,5 +1,5 @@
 <?php include "header.inc" /* -*- html -*- */ ?>
-<?php if ($domain === ''): ?>
+<?php if (!$domain): ?>
 <strong>Something is wrong on the server. Please excuse any formatting
   or other errors you may see.</strong>
 <?php elseif ($domain !== 'nasm.us'): ?>

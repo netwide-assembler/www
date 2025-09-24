@@ -23,8 +23,8 @@
 	    $rc_notes = "${rc_doc}$changes";
         }
 
-	$snap_version = trim(file_get_contents("$snapshot_path/version.id"));
 	$snap_path    = "$snap_root/latest";
+	$snap_version = trim(file_get_contents("$snap_path/version.id"));
 	$snap_docs    = "$snap_path/doc";
 	$snap_doc     = "$snap_docs/html/";
 	$snap_pdf     = "$snap_docs/nasmdoc.pdf";
