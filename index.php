@@ -90,7 +90,7 @@
 	      <?php endif; ?>
 	      <tr>
 		<th scope="row">Development snapshot</th>
-		<td><a href="<?=$snap_path?"><?=$snap_version?></a></td>
+		<td><a href="<?=$snap_path?>"<?=$snap_version?></a></td>
 		<td><a href="<?=$snap_notes?>">Release notes</a></td>
 	      </tr>
 	      <tr>
