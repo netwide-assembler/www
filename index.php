@@ -1,4 +1,5 @@
 <?php include "header.inc" /* -*- html -*- */ ?>
+<?php include "navbar.inc" ?>
 <?php if (!$domain): ?>
 <strong>Something is wrong on the server. Please excuse any formatting
   or other errors you may see.</strong>
