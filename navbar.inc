@@ -1,4 +1,4 @@
-<?php /* -*- html -*- */ -->
+<?php /* -*- html -*- */ ?>
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid container">
     <div class="navbar-header">
