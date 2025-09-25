@@ -1,8 +1,8 @@
 <?php /* -*- html -*- */ ?><!DOCTYPE html>
 <html lang="en">
   <!-- <?php
-        // This php block must be inside an html comment, or
-        // version.inc will produce crap
+        // This php block must be inside an html comment, as
+        // version.inc emits some garbage due to the polyglot hack
 	$top = __DIR__;
 	include("$top/version.inc");
 	$domain = preg_replace('/^www\./', '', $_SERVER['SERVER_NAME']);
@@ -19,7 +19,7 @@
 	$stable_notes = "${stable_doc}$changes";
 
 	if (isset($rc_version)) {
-	    $rc_path  = "$release_root/$version";
+	    $rc_path  = "$release_root/$rc_version";
             $rc_docs  = "$doc_root/$rc_version";
             $rc_doc   = "$rc_docs/html/";
 	    $rc_pdf   = "$rc_docs/nasmdoc.pdf";
