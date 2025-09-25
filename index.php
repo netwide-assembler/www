@@ -1,6 +1,6 @@
 <?php include "header.inc" /* -*- html -*- */ ?>
 <?php include "navbar.inc" ?>
-<?php if (!$domain): ?>
+<?php if (!isset($domain)): ?>
 <strong>Something is wrong on the server. Please excuse any formatting
   or other errors you may see.</strong>
 <?php elseif ($domain !== 'nasm.us'): ?>
@@ -112,7 +112,7 @@
 	    <li>H. Peter Anvin</li>
 	    <li>Cyrill Gorcunov</li>
 	    <li>Sheng Yongjie</li>
-	    <li>Marciej Wieczor-Retman</li>
+	    <li>Maciej Wieczor-Retman</li>
 	  </ul>
 	</p>
 	<p>... with support from many others, and we are always looking for more developers.</p>
