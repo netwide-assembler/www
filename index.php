@@ -113,14 +113,13 @@
 	<h2 class="centered">Development Team</h2>
 	<p>NASM was originally developed by Simon Tatham and Julian Hall, and is
 	  now maintained by a team led by H. Peter Anvin.</p>
-	<p>Currently active team members are:
-	  <ul>
-	    <li>H. Peter Anvin</li>
-	    <li>Cyrill Gorcunov</li>
-	    <li>Sheng Yongjie</li>
-	    <li>Maciej Wieczor-Retman</li>
-	  </ul>
-	</p>
+	<p>Currently active team members are:</p>
+	<ul>
+	  <li>H. Peter Anvin</li>
+	  <li>Cyrill Gorcunov</li>
+	  <li>Sheng Yongjie</li>
+	  <li>Maciej Wieczor-Retman</li>
+	</ul>
 	<p>... with support from many others, and we are always looking for more developers.</p>
       </div>
     </div>
