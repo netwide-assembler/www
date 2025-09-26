@@ -31,7 +31,7 @@
   <div class="container">
     <div class="row nasm-info">
       <div class="col-md-6">
-	<h2>Welcome</h2>
+	<h1>NASM &mdash; The Netwide Assembler</h1>
 	<p>This is the project webpage
 	  for the Netwide Assembler (NASM), an assembler for
 	  the x86 CPU architecture portable to nearly every
