@@ -17,7 +17,7 @@
       <ul class="nav navbar-nav">
 	<li><a href="https://forum.<?=$domain?>/">Forum</a></li>
 	<li><a href="/pub/nasm/releasebuilds/">Download</a></li>
-	<li><a href="/links/repo">Repo</a></li>
+	<li><a href="/repo/">Repo</a></li>
 	<li><a href="/docs.html">Docs</a></li>
 	<li><a href="https://bugzilla.<?=$domain?>/">Bugs</a></li>
 	<li><a href="/patches.html">Patches</a></li>
