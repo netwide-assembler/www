@@ -19,13 +19,12 @@
 	$stable_notes = "${stable_doc}$changes";
 
 	if (isset($rc_version)) {
-	    if (preg_match('rc', $rc_version)) {
-	        $rc_Name = 'Release candidate';
+	    if (str_contains($rc_version,'rc')) {
 	        $rc_name = 'release candidate';
 	    } else {
-	        $rc_Name = 'Prerelease';
 	        $rc_name = 'prerelease';
 	    }
+	    $rc_Name = ucfirst($rc_name);
 	    $rc_path  = "$release_root/$rc_version";
             $rc_docs  = "$doc_root/$rc_version";
             $rc_doc   = "$rc_docs/html/";
