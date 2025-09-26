@@ -1,5 +1,6 @@
 Redirect "/git"		"https://github.com/netwide-assembler/nasm.git"
 Redirect "/repo"	"https://github.com/netwide-assembler/nasm.git"
+Redirect "/links/repo"	"https://github.com/netwide-assembler/nasm.git"
 Redirect "/src"		"https://github.com/netwide-assembler/nasm.git"
 Redirect "/bugs"	"https://bugzilla.nasm.us"
 Redirect "/bugzilla"	"https://bugzilla.nasm.us"
