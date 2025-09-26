@@ -52,7 +52,7 @@
   <div class="container">
     <div class="row nasm-info">
       <div class="col-md-12">
-	<h2>Latest version</h2>
+	<h2>Latest versions</h2>
 	<table class="table table-hover table-responsive">
 	  <tbody>
 	    <tr>
@@ -75,10 +75,15 @@
 	      <td><a href="<?=$snap_notes?>">Release notes</a></td>
 	      <td><a href="<?=$snap_doc?>">Documentation</a></td>
 	    </tr>
+	  </tbody>
+	</table>
+	<h2>All versions</h2>
+	<table class="table table-hover table-responsive">
+	  <tbody>
 	    <tr>
-	      <th scope="row">Older versions</th>
-	      <td><a href="<?=$release_root?>/">Stable/RC/prerelease</a></td>
-	      <td><a href="<?=$snap_root?>/">Snapshots</a></td>
+	      <td><a href="<?=$release_root?>/">Stable, release
+	      candidates, prereleases</a></td>
+	      <td><a href="<?=$snap_root?>/">Development snapshots</a></td>
 	    </tr>
 	  </tbody>
 	</table>
