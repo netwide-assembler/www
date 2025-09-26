@@ -20,11 +20,11 @@
 
 	if (isset($rc_version)) {
 	    if (str_contains($rc_version,'rc')) {
-	        $rc_name = 'release candidate';
-	    } else {
-	        $rc_name = 'prerelease';
+                $rc_name = 'release candidate';
+            } else {
+                $rc_name = 'prerelease';
 	    }
-	    $rc_Name = ucfirst($rc_name);
+	    $rc_Name  = ucfirst($rc_name);
 	    $rc_path  = "$release_root/$rc_version";
             $rc_docs  = "$doc_root/$rc_version";
             $rc_doc   = "$rc_docs/html/";
@@ -32,8 +32,8 @@
 	    $rc_notes = "${rc_doc}$changes";
         }
 
-	$snap_path    = "$snap_root/latest";
-	$snap_version = trim(file_get_contents("$snap_path/version.id"));
+	$snap_version = trim(file_get_contents("$snap_root/latest/version.id"));
+	$snap_path    = "$snap_root/$snap_version";
 	$snap_docs    = "$snap_path/doc";
 	$snap_doc     = "$snap_docs/html/";
 	$snap_pdf     = "$snap_docs/nasmdoc.pdf";

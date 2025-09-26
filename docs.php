@@ -14,6 +14,11 @@
 	  plain text, HTML and info.</p>
 
 	<table class="table table-hover table-responsive">
+	  <tr>
+	    <th colspan="2">Version</th>
+	    <th colspan="2">Online</th>
+	    <th colspan="3">Download</th>
+	  </tr>
 	  <tbody>
             <?php $xdoc = "nasm-$version-xdoc"; ?>
 	    <?php $xdpath = "$stable_path/$xdoc"; ?>
@@ -22,22 +27,22 @@
 	      <td><?=$version?></td>
 	      <td><a href="<?=$stable_doc?>">HTML</a></td>
 	      <td><a href="<?=$stable_pdf?>">PDF</a></td>
-	      <td><a href="<?=$xdpath?>.tar.xz">Download (<span class="filename">.tar.xz</span>)</a></td>
-	      <td><a href="<?=$xdpath?>.tar.gz">Download (<span class="filename">.tar.gz</span>)</a></td>
-	      <td><a href="<?=$xdpath?>.zip">Download (<span class="filename">.zip</span>)</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.tar.xz">tar.xz</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.tar.gz">tar.gz</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.zip">zip</a></td>
 	    </tr>
 
 	    <?php if (isset($rc_version)): ?>
 	    <?php $xdoc = "nasm-$rc_version-xdoc"; ?>
 	    <?php $xdpath = "$rc_path/$xdoc"; ?>
 	    <tr>
-	      <th scope="row"><?=$rc_name?></th>
-	      <td><?=$rc_Name?></td>
+	      <th scope="row"><?=$rc_Name?></th>
+	      <td><?=$rc_version?></td>
 	      <td><a href="<?=$rc_doc?>">HTML</a></td>
 	      <td><a href="<?=$rc_pdf?>">PDF</a></td>
-	      <td><a href="<?=$xdpath?>.tar.xz">Download (<span class="filename">.tar.xz</span>)</a></td>
-	      <td><a href="<?=$xdpath?>.tar.gz">Download (<span class="filename">.tar.gz</span>)</a></td>
-	      <td><a href="<?=$xdpath?>.zip">Download (<span class="filename">.zip</span>)</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.tar.xz">tar.xz</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.tar.gz">tar.gz</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.zip">zip</a></td>
 	    </tr>
 	    <?php endif; ?>
 
@@ -48,9 +53,9 @@
 	      <td><?=$snap_version?></td>
 	      <td><a href="<?=$snap_doc?>">HTML</a></td>
 	      <td><a href="<?=$snap_pdf?>">PDF</a></td>
-	      <td><a href="<?=$xdpath?>.tar.xz">Download (<span class="filename">.tar.xz</span>)</a></td>
-	      <td><a href="<?=$xdpath?>.tar.gz">Download (<span class="filename">.tar.gz</span>)</a></td>
-	      <td><a href="<?=$xdpath?>.zip">Download (<span class="filename">.zip</span>)</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.tar.xz">tar.xz</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.tar.gz">tar.gz</a></td>
+	      <td><a class="filename" href="<?=$xdpath?>.zip">zip</a></td>
 	    </tr>
 	  </tbody>
 	</table>
