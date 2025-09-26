@@ -10,13 +10,13 @@
 
 	$release_root = '/pub/nasm/releasebuilds';
 	$snap_root    = '/pub/nasm/snapshots';
-	$doc_root     = '/docs';
+	$docs_root    = '/docs';
+	$xdoc_root    = '/xdoc';
 	$changes      = 'nasmdocc.html';
 
 	$stable_path  = "$release_root/$version";
-	$stable_docs  = "$doc_root/$version";
-	$stable_doc   = "$stable_docs/html/";
-	$stable_pdf   = "$stable_docs/nasmdoc.pdf";
+	$stable_doc   = "$docs_root/$version/";
+	$stable_pdf   = "$xdoc_root/$version/nasmdoc.pdf";
 	$stable_notes = "${stable_doc}$changes";
 
 	if (isset($rc_version)) {
@@ -27,17 +27,15 @@
 	    }
 	    $rc_Name  = ucfirst($rc_name);
 	    $rc_path  = "$release_root/$rc_version";
-            $rc_docs  = "$doc_root/$rc_version";
-            $rc_doc   = "$rc_docs/html/";
-	    $rc_pdf   = "$rc_docs/nasmdoc.pdf";
+            $rc_doc   = "$docs_root/$rc_version/";
+	    $rc_pdf   = "$xdoc_root/$rc_version/nasmdoc.pdf";
 	    $rc_notes = "${rc_doc}$changes";
         }
 
 	$snap_version = trim(file_get_contents("$snap_root/latest/version.id"));
 	$snap_path    = "$snap_root/$snap_version";
-	$snap_docs    = "$snap_path/doc";
-	$snap_doc     = "$snap_docs/html/";
-	$snap_pdf     = "$snap_docs/nasmdoc.pdf";
+	$snap_doc     = "$snap_path/doc/html/";
+	$snap_pdf     = "$snap_path/doc/nasmdoc.pdf";
 	$snap_notes   = "${snap_doc}$changes";
   ?> -->
   <head>
