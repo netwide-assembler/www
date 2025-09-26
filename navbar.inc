@@ -1,6 +1,6 @@
 <?php /* -*- html -*- */ ?>
-<nav role="navigation">
-  <ul class="navbar">
+<nav class="navbar" role="navigation">
+  <ul class="nav">
     <li><a href="https://forum.<?=$domain?>/">Forum</a></li>
     <li><a href="/pub/nasm/releasebuilds/">Download</a></li>
     <li><a href="/repo/">Repo</a></li>

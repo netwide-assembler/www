@@ -57,7 +57,7 @@
 	  <tbody>
 	    <tr>
 	      <th scope="row">Stable</th>
-	      <td><a href="<?=$stable_path?>"><?=$version?></td>
+	      <td><a href="<?=$stable_path?>"><?=$version?></a></td>
 	      <td><a href="<?=$stable_notes?>">Release notes</a></td>
 	      <td><a href="<?=$stable_doc?>">Documentation</a></td>
 	    </tr>
