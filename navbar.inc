@@ -1,6 +1,7 @@
 <?php /* -*- html -*- */ ?>
 <nav class="navbar" role="navigation">
   <ul class="nav">
+    <li><a class="home" href="/"><img src="images/nasmlogw.png" alt="Home" /></a></li>
     <li><a href="https://forum.<?=$domain?>/">Forum</a></li>
     <li><a href="/pub/nasm/releasebuilds/">Download</a></li>
     <li><a href="/repo/">Repo</a></li>

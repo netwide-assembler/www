@@ -1,6 +1,5 @@
 body {
 	font-family: 'Roboto', serif;
-
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	font-size: 18px;
@@ -98,10 +97,8 @@ table tbody {
     overflow: hidden;
     white-space: nowrap;
     list-style-type: none;
-    background: #336 url("../images/nasmlogw.png") no-repeat right center;
-    background-size: contain;
+    background-color: #336;
 }
-
 .navbar ul li {
     float: left;
 }
@@ -115,6 +112,12 @@ table tbody {
     text-align: center;
     padding: 1em 1.5em;
     text-decoration: none;
+}
+.navbar ul a.home {
+    padding: 1px 1px;
+}
+.navbar ul img {
+    height: 3em;
 }
 .navbar ul a:hover {
     background-color: #448;
