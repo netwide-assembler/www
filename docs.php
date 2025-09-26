@@ -23,14 +23,14 @@
 	<h3>Online for NASM <?=$rc_version?> (<?=$rc_name?>)</h3>
 	<p><ul>
 	    <li><a href="<?=$rc_doc?>">HTML format</a></li>
-	    <li><a href="<?=$rc_pdf?>"PDF format</a></li>
-	</ul></p>
+	    <li><a href="<?=$rc_pdf?>">PDF format</a></li>
+	</ul></dp>
 	<?php endif; ?>
 
 	<h3>Online for development snapshot <?=$snap_version?></h3>
 	<p><ul>
 	    <li><a href="<?=$snap_doc?>">HTML format</a></li>
-	    <li><a href="<?=$snap_pdf?>"PDF format</a></li>
+	    <li><a href="<?=$snap_pdf?>">PDF format</a></li>
 	</ul></p>
 
         <?php $xdoc = "nasm-$version-xdoc"; ?>
