@@ -53,8 +53,7 @@
     <?php if (!isset($title)) { $title = 'NASM'; } ?>
     <title><?=$title?></title>
 
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/web-fonts.css" rel="stylesheet">
-    <link href="/css/nasm.css" rel="stylesheet">
+    <link href="css/web-fonts.css" rel="stylesheet">
+    <link href="css/nasm.css" rel="stylesheet">
   </head>
   <body>

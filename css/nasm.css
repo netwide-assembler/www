@@ -3,6 +3,12 @@ body {
 
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
+	font-size: 18px;
+}
+
+p {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 a {
@@ -17,6 +23,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+	text-align: center;
 }
 
 h1 {
@@ -34,10 +41,6 @@ h3 {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-size: 24px;
-}
-
-p {
-	font-size: 18px;
 }
 
 .shaded-code {
@@ -59,27 +62,64 @@ p {
 	font-size: 18px;
 }
 
-.navbar {
-	text-transform: uppercase;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-bottom: 5px;
+table {
+    margin: 0px auto;
+    width: 90%;
+    empty-cells: show;
+    border-collapse: collapse;
+}
+td, th {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 0.5em 1.5em;
+}
+td.sep, th.sep {
+    border-right: 1px solid #cccccc;
+}
+table caption {
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    font-size: 24px;
+    padding: 0.25em 1.5em;
+}
+table thead {
+    text-align: center;
+}
+table tbody {
+    text-align: left;
+}
+.navbar ul {
+    display: block;
+    position: sticky;
+    top: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    list-style-type: none;
+    background: #336 url("../images/nasmlogw.png") no-repeat right center;
+    background-size: contain;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: #3b5998;
-	font-weight: bold;
+.navbar ul li {
+    float: left;
 }
-
-.navbar-default .navbar-nav > li > a:hover {
-	text-decoration: underline;
-	color: #3b5998;
-	font-weight: bold;
+.navbar ul li.last {
+    border-right: none;
 }
-
-.navbar-home img.navbar-logo {
-	height: 50px;
-	width: auto;
-	max-height: 110%;
-	padding: 5px 10px;
+.navbar ul a {
+    border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+.navbar ul a:hover {
+    background-color: #448;
+}
+.footer {
+    text-align: left;
+    font-size: 12px;
 }

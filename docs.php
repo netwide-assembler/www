@@ -13,13 +13,15 @@
 	  documentation in the following formats: PDF, PostScript,
 	  plain text, and HTML.</p>
 
-	<h3>Available documentation</h3>
-	<table class="table table-hover table-responsive">
-	  <tr>
-	    <th colspan="2">Version</th>
-	    <th colspan="2">Online</th>
-	    <th colspan="3">Download</th>
-	  </tr>
+	<table>
+	  <caption>Available documentation</caption>
+	  <thead>
+	    <tr>
+	      <th colspan="2" class="sep">Version</th>
+	      <th colspan="2" class="sep">Online</th>
+	      <th colspan="3">Download</th>
+	    </tr>
+	  </thead>
 	  <tbody>
             <?php $xdoc = "nasm-$version-xdoc"; ?>
 	    <?php $xdpath = "$stable_path/$xdoc"; ?>

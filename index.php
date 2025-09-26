@@ -52,8 +52,8 @@
   <div class="container">
     <div class="row nasm-info">
       <div class="col-md-12">
-	<h2>Latest versions</h2>
 	<table class="table table-hover table-responsive">
+	  <caption>Latest versions</caption>
 	  <tbody>
 	    <tr>
 	      <th scope="row">Stable</th>
@@ -77,8 +77,8 @@
 	    </tr>
 	  </tbody>
 	</table>
-	<h2>All versions</h2>
 	<table class="table table-hover table-responsive">
+	  <caption>All versions</caption>
 	  <tbody>
 	    <tr>
 	      <td><a href="<?=$release_root?>/">Stable, release
