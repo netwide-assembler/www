@@ -4,6 +4,7 @@
         // This php block must be inside an html comment, as
         // version.inc emits some garbage due to the polyglot hack
 	$top = __DIR__;
+	$year = date('Y');
 	include("$top/version.inc");
 	$domain = preg_replace('/^www\./', '', $_SERVER['SERVER_NAME']);
 

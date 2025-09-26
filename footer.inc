@@ -1,7 +1,7 @@
 <?php /* -*- html -*- */ ?>
 <div class="container">
   <div class="modal-footer">
-    <p>&copy;1996-2025 The NASM development team</p><p><img src="images/nasm.png" alt="NASM"></p>
+    <p>&copy;1996-<?=$year?> The NASM development team</p>
   </div>
 </div>
 </body>
