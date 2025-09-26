@@ -8,3 +8,5 @@ Disallow: /usage/
 Disallow: /xdoc/
 Disallow: /buildlogs
 Disallow: /scripts/
+# Do NOT include the sitewide robots.txt
+#final
