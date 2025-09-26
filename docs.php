@@ -13,54 +13,47 @@
 	  documentation in the following formats: PDF, PostScript,
 	  plain text, HTML and info.</p>
 
-	<h3>Online for NASM <?=$version?> (stable)</h3>
-	<p><ul>
-	    <li><a href="<?=$stable_doc?>">HTML format</a></li>
-	    <li><a href="<?=$stable_pdf?>">PDF format</a></li>
-	</ul></p>
+	<table class="table table-hover table-responsive">
+	  <tbody>
+            <?php $xdoc = "nasm-$version-xdoc"; ?>
+	    <?php $xdpath = "$stable_path/$xdoc"; ?>
+	    <tr>
+	      <th scope="row">Stable</th>
+	      <td><?=$version?></td>
+	      <td><a href="<?=$stable_doc?>">HTML</a></td>
+	      <td><a href="<?=$stable_pdf?>">PDF</a></td>
+	      <td><a href="<?=$xdpath?>.tar.xz">Download (<span class="filename">.tar.xz</span>)</a></td>
+	      <td><a href="<?=$xdpath?>.tar.gz">Download (<span class="filename">.tar.gz</span>)</a></td>
+	      <td><a href="<?=$xdpath?>.zip">Download (<span class="filename">.zip</span>)</a></td>
+	    </tr>
 
-	<?php if (isset($rc_version)): ?>
-	<h3>Online for NASM <?=$rc_version?> (<?=$rc_name?>)</h3>
-	<p><ul>
-	    <li><a href="<?=$rc_doc?>">HTML format</a></li>
-	    <li><a href="<?=$rc_pdf?>">PDF format</a></li>
-	</ul></dp>
-	<?php endif; ?>
+	    <?php if (isset($rc_version)): ?>
+	    <?php $xdoc = "nasm-$rc_version-xdoc"; ?>
+	    <?php $xdpath = "$rc_path/$xdoc"; ?>
+	    <tr>
+	      <th scope="row"><?=$rc_name?></th>
+	      <td><?=$rc_Name?></td>
+	      <td><a href="<?=$rc_doc?>">HTML</a></td>
+	      <td><a href="<?=$rc_pdf?>">PDF</a></td>
+	      <td><a href="<?=$xdpath?>.tar.xz">Download (<span class="filename">.tar.xz</span>)</a></td>
+	      <td><a href="<?=$xdpath?>.tar.gz">Download (<span class="filename">.tar.gz</span>)</a></td>
+	      <td><a href="<?=$xdpath?>.zip">Download (<span class="filename">.zip</span>)</a></td>
+	    </tr>
+	    <?php endif; ?>
 
-	<h3>Online for development snapshot <?=$snap_version?></h3>
-	<p><ul>
-	    <li><a href="<?=$snap_doc?>">HTML format</a></li>
-	    <li><a href="<?=$snap_pdf?>">PDF format</a></li>
-	</ul></p>
-
-        <?php $xdoc = "nasm-$version-xdoc"; ?>
-	<?php $xdpath = "$stable_path/$xdoc"; ?>
-	<h3>Downloadable for NASM <?=$version?> (stable)</h3>
-	<p><ul>
-	    <li><a class="filename" href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
-	    <li><a class="filename" href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
-	    <li><a class="filename" href="<?=$xdpath?>.zip"><?=$xdoc?>.zip</a></li>
-	</ul></p>
-
-	<?php if (isset($rc_version)): ?>
-	<?php $xdoc = "nasm-$rc_version-xdoc"; ?>
-	<?php $xdpath = "$rc_path/$xdoc"; ?>
-	<h3>Downloadable for NASM <?=$rc_version?> (<?=$rc_name?>)</h3>
-	<p><ul>
-	    <li><a class="filename" href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
-	    <li><a class="filename" href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
-	    <li><a class="filename" href="<?=$xdpath?>.zip"><?=$xdoc?>.zip</a></li>
-	</ul></p>
-	<?php endif; ?>
-
-	<?php $xdoc = "nasm-$snap_version-xdoc"; ?>
-	<?php $xdpath = "$snap_path/$xdoc"; ?>
-	<h3>Downloadable for developent snapshot <?=$snap_version?></h3>
-	<p><ul>
-	    <li><a class="filename" href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
-	    <li><a class="filename" href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
-	    <li><a class="filename" href="<?=$xdpath?>.zip"><?=$xdoc?>.zip</a></li>
-	</ul></p>
+	    <?php $xdoc = "nasm-$snap_version-xdoc"; ?>
+	    <?php $xdpath = "$snap_path/$xdoc"; ?>
+	    <tr>
+	      <th scope="row">Development snapshot</th>
+	      <td><?=$snap_version?></td>
+	      <td><a href="<?=$snap_doc?>">HTML</a></td>
+	      <td><a href="<?=$snap_pdf?>">PDF</a></td>
+	      <td><a href="<?=$xdpath?>.tar.xz">Download (<span class="filename">.tar.xz</span>)</a></td>
+	      <td><a href="<?=$xdpath?>.tar.gz">Download (<span class="filename">.tar.gz</span>)</a></td>
+	      <td><a href="<?=$xdpath?>.zip">Download (<span class="filename">.zip</span>)</a></td>
+	    </tr>
+	  </tbody>
+	</table>
       </div>
     </div>
   </div>

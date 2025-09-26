@@ -53,34 +53,35 @@
     <div class="row nasm-info">
       <div class="col-md-12">
 	<h2>Latest version</h2>
-	<p>
-	  <table class="table table-hover table-responsive">
-	    <tbody>
-	      <tr>
-		<th scope="row">Stable</th>
-		<td><a href="<?=$stable_path?>"><?=$version?></td>
-		<td><a href="<?=$stable_notes?>">Release notes</a></td>
-	      </tr>
-	      <?php if (isset($rc_version)): ?>
-	      <tr>
-		<th scope="row"><?=$rc_Name?></th>
-		<td><a href="<?=$rc_path?>"><?=$rc_version?></a></td>
-		<td><a href="<?=$rc_notes?>">Release notes</a></td>
-	      </tr>
-	      <?php endif; ?>
-	      <tr>
-		<th scope="row">Development snapshot</th>
-		<td><a href="<?=$snap_path?>"><?=$snap_version?></a></td>
-		<td><a href="<?=$snap_notes?>">Release notes</a></td>
-	      </tr>
-	      <tr>
-		<th scope="row">Old versions</th>
-		<td><a href="<?=$release_root?>/">Stable/RC/prerelease</a></td>
-		<td><a href="<?=$snap_root?>/">Snapshots</a></td>
-	      </tr>
-	    </tbody>
-	  </table>
-	</p>
+	<table class="table table-hover table-responsive">
+	  <tbody>
+	    <tr>
+	      <th scope="row">Stable</th>
+	      <td><a href="<?=$stable_path?>"><?=$version?></td>
+	      <td><a href="<?=$stable_notes?>">Release notes</a></td>
+	      <td><a href="<?=$stable_doc?>">Documentation</a></td>
+	    </tr>
+	    <?php if (isset($rc_version)): ?>
+	    <tr>
+	      <th scope="row"><?=$rc_Name?></th>
+	      <td><a href="<?=$rc_path?>"><?=$rc_version?></a></td>
+	      <td><a href="<?=$rc_notes?>">Release notes</a></td>
+	      <td><a href="<?=$rc_doc?>">Documentation</a></td>
+	    </tr>
+	    <?php endif; ?>
+	    <tr>
+	      <th scope="row">Development snapshot</th>
+	      <td><a href="<?=$snap_path?>"><?=$snap_version?></a></td>
+	      <td><a href="<?=$snap_notes?>">Release notes</a></td>
+	      <td><a href="<?=$snap_doc?>">Documentation</a></td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Older versions</th>
+	      <td><a href="<?=$release_root?>/">Stable/RC/prerelease</a></td>
+	      <td><a href="<?=$snap_root?>/">Snapshots</a></td>
+	    </tr>
+	  </tbody>
+	</table>
       </div>
     </div>
   </div>
