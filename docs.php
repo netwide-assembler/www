@@ -11,8 +11,9 @@
 	  developments snapshots) and accessible either online or in
 	  various offline archives. Such archives provide
 	  documentation in the following formats: PDF, PostScript,
-	  plain text, HTML and info.</p>
+	  plain text, and HTML.</p>
 
+	<h3>Available documentation</h3>
 	<table class="table table-hover table-responsive">
 	  <tr>
 	    <th colspan="2">Version</th>
