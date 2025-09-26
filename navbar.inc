@@ -8,15 +8,15 @@
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="/">
 	<img src="images/nasm.png" alt="NASM Logo" class="navbar-logo">
       </a>
     </div>
 
     <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-id">
       <ul class="nav navbar-nav">
-	<li><a href="https://forum.<?=$domain?>">Forum</a></li>
-	<li><a href="/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
+	<li><a href="https://forum.<?=$domain?>/">Forum</a></li>
+	<li><a href="/pub/nasm/releasebuilds/">Download</a></li>
 	<li><a href="/links/repo">Repo</a></li>
 	<li><a href="/docs.html">Docs</a></li>
 	<li><a href="https://bugzilla.<?=$domain?>/">Bugs</a></li>
