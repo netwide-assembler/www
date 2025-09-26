@@ -14,20 +14,20 @@
 	<h3>Online for NASM <?=$version?> (stable)</h3>
 	<p><ul>
 	    <li><a href="<?=$stable_doc?>">HTML format</a></li>
-	    <li><a href="<?=$stable_pdf?>">PDF format</a></li>\n";
+	    <li><a href="<?=$stable_pdf?>">PDF format</a></li>
 	</ul></p>
 
 	<?php if (isset($rc_version)): ?>
 	<h3>Online for NASM $<?=$rc_version?> (prerelease)</h3>
 	<p><ul>
 	    <li><a href="<?=$rc_doc?>">HTML format</a></li>
-	    <li><a href="<?=$rc_pdf?">PDF format</a></li>
+	    <li><a href="<?=$rc_pdf?>"PDF format</a></li>
 	</ul></p>
 	<?php endif; ?>
 
 	<?php $xdoc = "nasm-$version-xdoc"; ?>
 	<?php $xdpath = "$stable_path/$xdoc"; ?>
-	<h3>Downloadable for NASM $version (stable)</h3>
+	<h3>Downloadable for NASM <?=$version?> (stable)</h3>
 	<p><ul>
 	    <li><a href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
 	    <li><a href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
@@ -37,7 +37,7 @@
 	<?php if (isset($rc_version)): ?>
 	<?php $xdoc = "nasm-$rc_version-xdoc"; ?>
 	<?php $xdpath = "$rc_path/$xdoc"; ?>
-	<h3>Downloadable for NASM $rc_version (prerelease)</h3>
+	<h3>Downloadable for NASM <?=$rc_version?> (prerelease)</h3>
 	<p><ul>
 	    <li><a href="<?=$xdpath?>.tar.xz"><?=$xdoc?>.tar.xz</a></li>
 	    <li><a href="<?=$xdpath?>.tar.gz"><?=$xdoc?>.tar.gz</a></li>
