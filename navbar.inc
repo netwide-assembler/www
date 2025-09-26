@@ -8,7 +8,7 @@
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">
+      <a class="navbar-brand" href="index.html">
 	<img src="images/nasm.png" alt="NASM Logo" class="navbar-logo">
       </a>
     </div>
@@ -18,9 +18,9 @@
 	<li><a href="https://forum.<?=$domain?>">Forum</a></li>
 	<li><a href="/pub/nasm/releasebuilds/?C=M;O=D">Download</a></li>
 	<li><a href="/links/repo">Repo</a></li>
-	<li><a href="/docs.php">Docs</a></li>
+	<li><a href="/docs.html">Docs</a></li>
 	<li><a href="https://bugzilla.<?=$domain?>/">Bugs</a></li>
-	<li><a href="/patches.php">Patches</a></li>
+	<li><a href="/patches.html">Patches</a></li>
 	<li><a href="https://lists.<?=$domain?>/">Lists</a></li>
       </ul>
     </div>
