@@ -62,7 +62,7 @@ h3 {
 }
 
 table {
-    margin: 0px 30px;
+    margin: 35px auto;
     width: 90%;
     empty-cells: show;
     border-collapse: collapse;
