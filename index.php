@@ -52,7 +52,7 @@
     </tr>
   </tbody>
 </table>
-<p></p>
+
 <table>
   <caption>All versions</caption>
   <tbody>
