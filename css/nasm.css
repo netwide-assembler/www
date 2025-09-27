@@ -113,6 +113,12 @@ table tbody {
     padding: 1em 1.5em;
     text-decoration: none;
 }
+/* .navbar ul a.home {
+    background-image: url("../images/nasmlogw.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+} */
 .navbar ul a.home {
     padding: 1px 1px;
 }
@@ -125,4 +131,12 @@ table tbody {
 .footer {
     text-align: left;
     font-size: 12px;
+}
+
+.box {
+    break-inside: avoid;
+}
+.boxes {
+    column-count: 2;
+    column-width: 25em;
 }
