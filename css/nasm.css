@@ -99,6 +99,7 @@ table tbody {
     white-space: nowrap;
     list-style-type: none;
     background-color: #336;
+    margin-bottom: 1px;
 }
 .navbar ul li {
     float: left;
