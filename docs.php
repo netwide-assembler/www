@@ -17,8 +17,8 @@
 	  <caption>Available documentation</caption>
 	  <thead>
 	    <tr>
-	      <th colspan="2" class="sep">Version</th>
-	      <th colspan="2" class="sep">Online</th>
+	      <th colspan="2" class="sep">NASM version</th>
+	      <th colspan="2" class="sep">Read online</th>
 	      <th colspan="3">Download</th>
 	    </tr>
 	  </thead>
