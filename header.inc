@@ -34,8 +34,8 @@
 
 	if (!isset($snap_version)) {
 	    $snap_version = trim(file_get_contents("$snap_root/latest/version.id"));
-	    $snap_date    = preg_replace('/^.*-/', '', $snap_version);
 	}
+	$snap_date    = preg_replace('/^.*-/', '', $snap_version);
 	$snap_path    = "$snap_root/$snap_date";
 	$snap_doc     = "$snap_path/doc/html/";
 	$snap_pdf     = "$snap_path/doc/nasmdoc.pdf";
