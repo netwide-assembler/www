@@ -40,6 +40,10 @@
 	$snap_doc     = "$snap_path/doc/html/";
 	$snap_pdf     = "$snap_path/doc/nasmdoc.pdf";
 	$snap_notes   = "${snap_doc}$changes";
+
+	function mydate($time) {
+	    return $time ? date('Y-m-d', $time) : '&nbsp;';
+	}
   ?> -->
   <head>
     <meta charset="utf-8">

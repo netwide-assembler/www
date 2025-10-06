@@ -33,6 +33,7 @@
     <tr>
       <th scope="row">Stable</th>
       <td><a href="<?=$stable_path?>"><?=$version?></a></td>
+      <td><?=mydate($rel_time)?></td>
       <td><a href="<?=$stable_notes?>">Release notes</a></td>
       <td><a href="<?=$stable_doc?>">Documentation</a></td>
     </tr>
@@ -40,6 +41,7 @@
     <tr>
       <th scope="row"><?=$rc_Name?></th>
       <td><a href="<?=$rc_path?>"><?=$rc_version?></a></td>
+      <td><?=mydate($rc_time)?></td>
       <td><a href="<?=$rc_notes?>">Release notes</a></td>
       <td><a href="<?=$rc_doc?>">Documentation</a></td>
     </tr>
@@ -47,6 +49,7 @@
     <tr>
       <th scope="row">Development snapshot</th>
       <td><a href="<?=$snap_path?>"><?=$snap_version?></a></td>
+      <td><?=mydate($snap_time)?></td>
       <td><a href="<?=$snap_notes?>">Release notes</a></td>
       <td><a href="<?=$snap_doc?>">Documentation</a></td>
     </tr>
@@ -77,6 +80,15 @@
       <li>Maciej Wieczor-Retman</li>
     </ul>
     <p>... with support from many others, and we are always looking for more developers.</p>
+  </div>
+
+  <div class="box">
+    <h2>Moving more services to github</h2>
+    <p>We will be moving more services to github in the near
+      future. The github Issues are now open and preferred over
+      bugzilla. The forums are intended to be replaced by github
+      discussions and wiki when they are set up in the near
+      future.</p>
   </div>
 
   <div class="box">
