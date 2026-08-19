@@ -71,7 +71,7 @@
   <div class="box">
     <h2>Development Team</h2>
     <p>NASM was originally developed by Simon Tatham and Julian Hall, and is
-      now maintained by a team led by H. Peter Anvin of Intel Corporation.</p>
+      now maintained by a team led by H. Peter Anvin.</p>
     <p>Currently active team members are:</p>
     <ul>
       <li>H. Peter Anvin</li>
